@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coredevs || Home</title>
+    <!-- ==== Front Family ==== -->
+    <!-- Link to Inter font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap" />
+    <!-- Link to Swiss font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Swiss:400,500,700&display=swap" />
+    <link rel="stylesheet" href="../style.css" />
+    <!-- ==== tailwind ====  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section class="bg-gradient-to-br from-blue-900 via-blue-700 to-transparent  h-[820px]">
+        <!-- ==== Navbar ==== -->
+        <nav class="font-inter">
+            <div class="max-w-full px-6 md:mx-[150px] sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16">
+                    <!-- Logo -->
+                    <div class="flex-shrink-0 flex items-center">
+                        <img src='./Assets/coredevsLogo.svg' alt="">
+                    </div>
+                    <!-- Hamburger menu button (hidden on larger screens) -->
+                    <div class="flex items-center sm:hidden">
+                        <button id="navbar-toggle"
+                            class="inline-flex items-center justify-center p-2 rounded-md transition duration-150 ease-in-out">
+                            <img src="./Assets/collapseIcon.svg" alt="">
+                        </button>
+                    </div>
+                    <!-- Links -->
+                    <div
+                        class="hidden sm:flex sm:items-center sm:ml-6 h-[42px] border-[1px] rounded-[50px] mt-[16px] gap-x-[20px]">
+                        <div class="flex flex-row justify-center items-center">
+                            <p class="rounded-full bg-[#FE7317] w-[4px] h-[4px] ml-4"></p>
+                            <a href="#" class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">
+                                Home </a>
+                        </div>
+                        <a href="#" class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">About
+                            Us</a>
+                        <a href="#" class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">Services</a>
+                        <a href="#" class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">Case
+                            Study</a>
+                        <a href="#" class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">Blog</a>
+                        <a href="#" class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">Career</a>
+                    </div>
+                    <div
+                        class="hidden md:flex items-center justify-center px-[9px] mt-[16px] gap-x-[8px] bg-white border rounded-[50px] h-[42px]">
+                        <img src="./Assets/calendarIcon.svg" alt="">
+                        <p>Schedule a call</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile menu, toggle classes based on menu state -->
+            <div class="hidden sm:hidden" id="mobile-menu">
+                <div class="px-2 pt-2 pb-3">
+                    <a href="#" class="block text-white px-3 py-2 rounded-md text-base font-medium leading-6">Home</a>
+                    <a href="#" class="block text-white px-3 py-2 rounded-md text-base font-medium leading-6">About
+                        Us</a>
+                    <a href="#"
+                        class="block text-white px-3 py-2 rounded-md text-base font-medium leading-6">Services</a>
+                    <a href="#" class="block text-white px-3 py-2 rounded-md text-base font-medium leading-6">Case
+                        Study</a>
+                    <a href="#" class="block text-white px-3 py-2 rounded-md text-base font-medium leading-6">Blog</a>
+                    <a href="#" class="block text-white px-3 py-2 rounded-md text-base font-medium leading-6">Career</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+        <!-- ==== Banner ==== -->
+        <section>
+            <div class="mt-24 flex flex-row">
+                <img src="./Assets/SideLogo.svg" alt="">
+                <div class="ml-[-180px] md:ml-[-25px]">
+                    <p
+                        class="text-[#999FC6] text-sm leading-5 font-semibold w-[200px] px-2 h-[20px] border rounded-full">
+                        TRUST. BUILD. PROTECT.</p>
+                    <p
+                        class="w-[300px] md:w-[600px] h-[240px] text-[32px] md:text-[52px] leading-[56px] font-bold tracking-tight text-[#FFFFFF]">
+                        Trusted Technology Partner for Your <span class="text-[#FE7317]">Web3, Blockchain</span> & <span
+                            class="text-[#FE7317]">AI</span> Solutions.</p>
+                    <p class="w-[300px] md:w-[455px] h-[90px] font-semibold text-lg leading-7 text-[#D4D4D4]">
+                        Our team of technical experts is dedicated to creating better network tools and
+                        user-friendly designs to bring decentralization and automation to more people.
+                    </p>
+                    <div
+                        class="mt-[60px] md:mt-2 flex flex-row items-center justify-between bg-[#FE7317] w-[190px] h-[54px] py-[20px] px-[15px] rounded-full hover:bg-blue-900 text-[#000316] hover:text-white">
+                        <button class="font-medium text-base leading-6">Get an Estimate</button>
+                        <img src="./Assets/rightIcon.svg" alt="">
+                    </div>
+
+                </div>
+                <div>
+                    <!-- Add additional content here -->
+                </div>
+            </div>
+        </section>
+    </section>
+    <section>
+        <div
+            class="md:mx-[400px] py-[51px] max-w-full h-[165px] block md:flex flex-shrink-0 justify-between items-center">
+            <div class="flex flex-row items-center">
+                <img src="./Assets/avatar.svg" alt="">
+                <p class="text-sm font-normal leading-5 text-[#475569] w-[473px] h-[60px] ml-[16px]">Core Devs did an
+                    excellent
+                    job working with me on how to execute my project. Even as someone with no programming experience, I
+                    was still able to get exactly what I wanted. Excellent work!</p>
+            </div>
+            <div class="block justify-center items-center mt-[20px] md:mt-0">
+                <div class="flex flex-row justify-center items-center">
+                    <p
+                        class="w-[70px] h-[36px] font-swiss font-semibold text-[28px] leading-[36px] text-[#000316] tracking-tight">
+                        100%</p>
+                    <img src="./Assets//verifiedUpwork.svg" alt="">
+                </div>
+                <p class="mx-[80px] text-[#000316] font-normal text-sm">Satisfaction Customer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==== Card Section ==== -->
+    <!-- style="clip-path: polygon(20% 0%, 64% 0, 65% 33%, 100% 33%, 100% 100%, 20% 100%, 0 100%, 0 0);" -->
+    <section class="mx-[150px] mt-[100px] block grid">
+        <div class="[&>*:nth-child(2)]:hover:bg-green-900 [&>div>div]:hover:bg-green-900 w-[750px] h-[314px] relative">
+            <div
+                class="absolute top-0 right-0 w-[112px] h-[100px] rounded-bl-[36px] bg-white flex items-center justify-center z-10 ">
+                <div class=" flex items-center justify-center rounded-full w-[64px] h-[64px] bg-red-500">
+
+                </div>
+            </div>
+            <div class="absolute top-0 right-0 bg-gray-900 w-full h-full"
+                style="clip-path: inset(0rem 0% round 1rem 1rem 1rem 1rem);">
+                <div class="absolute top-0 right-[112px] rounded-tr-full w-[50px] h-[50px]"
+                    style="box-shadow: 15px -15px 0 15px #FFFFFF">
+                </div>
+                <div class="absolute top-[100px] right-0 rounded-tr-full w-[50px] h-[50px]"
+                    style="box-shadow: 15px -15px 0 15px #FFFFFF">
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3" id="cardSection">
+
+        </div>
+    </section>
+
+    <!-- ==== Why do customer work With Us ==== -->
+    <section class="h-[600px] mx-[150px]">
+        <div class="flex flex-row justify-between items-center">
+            <p class="text-[#001070] w-[360px] font-semibold text-[36px] leading-[44px] tracking-tight">
+                Why do customer work with us<span class="text-[#FE7317]">?</span>
+            </p>
+            <p class="w-[457px] h-[48px] font-medium text-[16px] leading-6 text-[#475569]">
+                We offer best-in-class client service and support, plus leading protection measures to ensure your peace
+                of mind.
+            </p>
+        </div>
+        <div class="flex flex-row justify-between items-center">
+            <div>
+                <img class="mt-[48px]" src="./Assets/rightTechnology.svg" alt="">
+                <img class="mt-[48px]" src="./Assets//softwareExpert.svg" alt="">
+                <img class="mt-[48px]" src="./Assets//securityInGoodhands.svg" alt="">
+            </div>
+            <div>
+                <img src="./Assets//imageOfCompanyHead.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JavaScript to toggle mobile menu -->
+    <script src="./home.js"></script>
+
+
+</body>
+
+</html>
