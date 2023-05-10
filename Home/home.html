@@ -33,7 +33,7 @@
     <section style="
     background: linear-gradient(357.75deg, #001070 1.79%, rgba(0, 16, 112, 0) 70.06%); background-color: #000316;">
         <!-- ==== Navbar ==== -->
-        <div class="container h-[820px]">
+        <div>
             <nav class="font-inter">
                 <div class="max-w-full px-6 md:mx-[150px] sm:px-6 lg:px-8">
                     <div class="flex justify-between h-16">
@@ -50,7 +50,7 @@
                         </div>
                         <!-- Links -->
                         <div
-                            class="hidden sm:flex sm:items-center sm:ml-6 h-[42px] border-[1px] rounded-[50px] mt-[16px] gap-x-[20px]">
+                            class="hidden sm:flex sm:items-center sm:ml-6 h-[42px] border-[0.5px] border-[#cbd5e133] rounded-[50px] mt-[16px] gap-x-[20px]">
                             <div class="flex flex-row justify-center items-center">
                                 <p class="rounded-full bg-[#FE7317] w-[4px] h-[4px] ml-4"></p>
                                 <a href="#" style="font-family: Switzer-Semibold;"
@@ -68,7 +68,7 @@
                                 class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">Career</a>
                         </div>
                         <div
-                            class="hidden md:flex items-center justify-center px-[9px] mt-[16px] gap-x-[8px] bg-white border rounded-[50px] h-[42px]">
+                            class="hidden md:flex items-center justify-center py-[9px] px-4 mt-4 gap-x-2 bg-white border rounded-[50px] h-[42px]">
                             <img src="./Assets/calendarIcon.svg" alt="">
                             <p>Schedule a call</p>
                         </div>
@@ -96,35 +96,43 @@
 
         <!-- ==== Banner ==== -->
         <div>
-            <div class="mt-24 flex flex-row">
-                <img src="./Assets/SideLogo.svg" alt="">
-                <div class="ml-[-180px] md:ml-[-25px]">
-                    <p
-                        class="text-[#999FC6] text-sm leading-5 font-semibold w-[200px] px-2 h-[20px] border rounded-full">
-                        TRUST. BUILD. PROTECT.</p>
-                    <h1
-                        class="w-[300px] md:w-[600px] h-[240px] text-[32px] md:text-[52px] leading-[56px] font-bold tracking-tight text-[#FFFFFF]">
-                        Trusted Technology Partner for Your <span class="text-[#FE7317]">Web3, Blockchain</span> & <span
-                            class="text-[#FE7317]">AI</span> Solutions.</h1>
-                    <p class="w-[300px] md:w-[455px] h-[90px] font-semibold text-lg leading-7 text-[#D4D4D4]">
-                        Our team of technical experts is dedicated to creating better network tools and
-                        user-friendly designs to bring decentralization and automation to more people.
-                    </p>
-                    <div
-                        class="mt-[60px] md:mt-2 flex flex-row items-center justify-between bg-[#FE7317] w-[190px] h-[54px] py-[20px] px-[15px] rounded-full hover:bg-blue-900 text-[#000316] hover:text-white">
-                        <button class="font-medium text-base leading-6">Get an Estimate</button>
-                        <img src="./Assets/rightIcon.svg" alt="">
-                    </div>
+            <div class="mt-24 flex flex-row ">
+                <img class="w-[10%]" src="./Assets/SideLogo.svg" alt="">
+                <div class="w-[80%] block md:flex justify-between">
+                    <div class="md:ml-[-25px]">
+                        <p style="border-color: linear-gradient(89.87deg, #FE7317 2.26%, #001070 99.89%);"
+                            class="text-[#999FC6] text-sm leading-5 font-semibold w-[200px] px-2 h-[20px] border rounded-full">
+                            TRUST. BUILD. PROTECT.</p>
+                        <h1 style="font-family: Switzer-Bold;"
+                            class="w-[300px] md:w-[600px] text-[32px] md:text-[54px] leading-[56px] mt-4 mb-5 font-bold tracking-tight text-[#FFFFFF]">
+                            Trusted Technology Partner for Your <span class="text-[#FE7317]">Web3, Blockchain</span> &
+                            <span class="text-[#FE7317]">AI</span> Solutions.
+                        </h1>
+                        <p class="w-[300px] md:w-[555px] font-medium text-lg leading-7 text-[#D4D4D4]">
+                            Our team of technical experts is dedicated to creating better network tools and
+                            user-friendly designs to bring decentralization and automation to more people.
+                        </p>
+                        <div
+                            class="mt-[30px] flex flex-row items-center justify-between bg-[#FE7317] w-[190px] py-[20px] px-[15px] rounded-full hover:bg-blue-900 text-[#000316] hover:text-white">
+                            <button class="font-medium text-base leading-6">Get an Estimate</button>
+                            <img src="./Assets/rightIcon.svg" alt="">
+                        </div>
 
-                </div>
-                <div>
-                    <!-- Add additional content here -->
+                    </div>
+                    <div>
+                        <div class="relative mt-[92px]">
+                            <img class="absolute right-[52px] top-[-60px] animate-bounce transition duration-1000"
+                                src="./Assets//banner/bannerlogoupper.svg" alt="">
+                            <img src="./Assets//banner/bannerlogobottom.svg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
     </section>
-    <section>
+
+    <!-- ====Baner footer section -->
+    <section class="mt-[50px]">
         <div class="container h-auto block md:flex flex-shrink-0 justify-between items-center">
             <div class="flex flex-row items-center">
                 <img src="./Assets/avatar.svg" alt="">
@@ -133,9 +141,9 @@
                     job working with me on how to execute my project. Even as someone with no programming experience, I
                     was still able to get exactly what I wanted. Excellent work!</p>
             </div>
-            <div class="block justify-center items-center mt-[20px] md:mt-0">
+            <div class="block justify-center items-center mt-12 md:mt-0">
                 <div class="flex flex-row justify-center items-center">
-                    <p
+                    <p style="font-family: Switzer-Semibold;"
                         class="w-[70px] h-[36px] font-swiss font-semibold text-[28px] leading-[36px] text-[#000316] tracking-tight">
                         100%</p>
                     <img src="./Assets//verifiedUpwork.svg" alt="">
@@ -146,89 +154,118 @@
     </section>
 
     <!-- ==== Card Section ==== -->
-    <section class="mx-[150px] mt-[100px] block grid">
-        <!-- <div class="[&>*:nth-child(2)]:hover:bg-green-900 [&>div>div]:hover:bg-green-900 w-[750px] h-[314px] relative">
+    <section class="container mt-[148px] block grid">
+        <div class="grid grid-cols-1 md:grid-cols-3">
             <div
-                class="absolute top-0 right-0 w-[112px] h-[100px] rounded-bl-[36px] bg-white flex items-center justify-center z-10 ">
-                <div class=" flex items-center justify-center rounded-full w-[64px] h-[64px] bg-red-500">
-
+                class="[&>*:nth-child(2)]:hover:bg-[#E6E7F1] [&>div>div]:hover:bg-[#E6E7F1] w-full h-[314px] relative bg-[#d9d9d930] md:col-span-2">
+                <div
+                    class="absolute top-0 right-0 w-[112px] h-[100px] rounded-bl-[36px] bg-white flex items-center justify-center z-10 ">
+                    <div class=" flex items-center justify-center rounded-full w-[64px] h-[64px] bg-[#FFFFFF]">
+                        <img src=${cardData.img} alt="" />
+                    </div>
+                </div>
+                <div class="absolute top-0 right-0  w-full h-full"
+                    style="clip-path: inset(0rem 0% round 1rem 1rem 1rem 1rem);">
+                    <div class="flex">
+                        <div class="mt-2 px-[40px] hover:bg-[url('./Assets/cardBg.svg')] bg-no-repeat bg-left">
+                            <p class="text-[#B3B7D4] font-semibold text-[20px]  tracking-tight mb-[4px]">01
+                            </p>
+                            <p class="font-semibold text-[24px] text-[#000316] tracking-tight w-[168px] mb-[16px]">
+                                Smart Contract
+                                Development</p>
+                            <p class="font-normal text-[14px] text-[#64748B] mb-[20px] w-[342px] h-[72px]">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit.
+                            </p>
+                            <div
+                                class="w-[150px] h-[42px] border rounded-[50px] flex flex-row justify-start items-center bg-[#FFE3D1]">
+                                <button
+                                    class="font-semibold text-[14px] leading-5 p-[11px] ml-[9px] text-[#FE7317]">Learn
+                                    more</button>
+                                <img src="./Assets/arrowRight.svg" alt="" />
+                            </div>
+                        </div>
+                        <div class="flex justify-bottom">
+                            <img src="./Assets/cardRotateImage.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="absolute top-0 right-[112px] rounded-tr-full w-[50px] h-[50px] "
+                        style="box-shadow: 15px -15px 0 15px #FFFFFF">
+                    </div>
+                    <div class="absolute top-[100px] right-0 rounded-tr-full w-[50px] h-[50px]"
+                        style="box-shadow: 15px -15px 0 15px #FFFFFF">
+                    </div>
                 </div>
             </div>
-            <div class="absolute top-0 right-0 bg-gray-900 w-full h-full"
-                style="clip-path: inset(0rem 0% round 1rem 1rem 1rem 1rem);">
-                <div class="absolute top-0 right-[112px] rounded-tr-full w-[50px] h-[50px]"
-                    style="box-shadow: 15px -15px 0 15px #FFFFFF">
-                </div>
-                <div class="absolute top-[100px] right-0 rounded-tr-full w-[50px] h-[50px]"
-                    style="box-shadow: 15px -15px 0 15px #FFFFFF">
-                </div>
-            </div>
-        </div> -->
-        <!-- <div class="grid grid-cols-1 md:grid-cols-3 justify-center items-center" id="cardSection">
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-x-[30px] mt-[30px] justify-center items-center"
+            id="cardSection">
 
-        </div> -->
+        </div>
     </section>
 
     <!-- ==== Why do customer work With Us ==== -->
-    <section class="container mt-[150px]">
-        <div class="flex flex-row justify-between">
-            <div>
-                <p class="text-[#001070] font-semibold text-[36px] leading-[44px] max-w-[360px] tracking-tight">
-                    Why do customer work with us<span class="text-[#FE7317]">?</span>
-                </p>
-                <div class="flex flex-row mt-[83px]">
-                    <img class="mr-[33px]" src="./Assets/rightTechnology.svg" alt="">
-                    <div>
-                        <h1 style="font-family: Switzer-semibold;" class="text-xl tracking-tight text-[#000316]">
-                            Scale
-                            with the
-                            right technology</h1>
-                        <p class="w-[458px] text-normal text-sm leading-5 text-[#475569]">Custom software must
-                            always be
-                            designed
-                            for a
-                            specific set of business needs. We have years of commercial experience with various
-                            technologies and can choose the right tech stack for your project.</p>
-                    </div>
-                </div>
-                <div class="flex flex-row jusitfy-center items-center">
-
-                    <img class="mr-[33px]" src="./Assets/softwareExpert.svg" alt="">
-                    <div>
-                        <h1 style="font-family: Switzer-semibold;" class="text-xl tracking-tight text-[#000316]">Scale
-                            with the
-                            right technology</h1>
-                        <p class="w-[458px] text-normal text-sm leading-5 text-[#475569]">Custom software must always be
-                            designed
-                            for a
-                            specific set of business needs. We have years of commercial experience with various
-                            technologies and can choose the right tech stack for your project.</p>
-                    </div>
-                </div>
-                <div class="flex flex-row jusitfy-center items-center">
-                    <img class="mr-[33px]" src="./Assets/securityInGoodhands.svg" alt="">
-                    <div>
-                        <h1 style="font-family: Switzer-semibold;" class="text-xl tracking-tight text-[#000316]">Scale
-                            with the
-                            right technology</h1>
-                        <p class="w-[458px] text-normal text-sm leading-5 text-[#475569]">Custom software must always be
-                            designed
-                            for a
-                            specific set of business needs. We have years of commercial experience with various
-                            technologies and can choose the right tech stack for your project.</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <p class="h-auto font-medium text-[16px] leading-6 max-w-[457px] text-[#475569]">
+    <Section class="mt-[148px]">
+        <div class="container">
+            <div class="block md:flex justify-between items-center pb-[48px] ">
+                <h2
+                    class="text-[#001070] w-full md:w-4/12 font-semibold text-[36px] leading-[44px] max-w-[360px] tracking-tight">
+                    Why do customer work with us <span class="text-[#FE7317]">?</span>
+                </h2>
+                <p class="w-[200px] md:w-5/12 font-medium text-[16px] leading-6 text-[#475569]">
                     We offer best-in-class client service and support, plus leading protection measures to ensure
                     your peace
                     of mind.
                 </p>
-                <img class="mt-[88px]" src="./Assets/imageOfCompanyHead.svg" alt="">
+            </div>
+            <div class="block md:flex justify-between items-center">
+                <div class="leftSide w-6/12 pr-[30px]">
+                    <div class=" flex pb-[48px]">
+                        <img src="./Assets/rightTechnology.svg" alt="">
+                        <div class="content pl-[32px]">
+                            <h6 style="font-family: Switzer-Semibold;"
+                                class="text-xl font-semibold tracking-tight text-[#000316]">
+                                Scale with the right technology</h6>
+                            <p class="hidden md:flex w-[458px] text-normal text-sm leading-5 text-[#475569]">Custom
+                                software must
+                                always be designed for a specific set of business needs. We have
+                                years of commercial experience with various technologies and can choose the right tech
+                                stack for your project.</p>
+                        </div>
+                    </div>
+                    <div class=" flex pb-[48px]">
+                        <img src="./Assets/softwareExpert.svg" alt="">
+                        <div class="content pl-[32px]">
+                            <h6 style="font-family: Switzer-Semibold;"
+                                class="text-xl font-semibold tracking-tight text-[#000316]">
+                                Scale with the right technology</h6>
+                            <p class="hidden md:flex w-[458px] text-normal text-sm leading-5 text-[#475569]">Custom
+                                software must
+                                always be designed for a specific set of business needs. We have
+                                years of commercial experience with various technologies and can choose the right tech
+                                stack for your project.</p>
+                        </div>
+                    </div>
+                    <div class="flex pb-[48px]">
+                        <img src="./Assets/securityInGoodhands.svg" alt="">
+                        <div class="content pl-[32px]">
+                            <h6 style="font-family: Switzer-Semibold;"
+                                class="text-xl font-semibold tracking-tight text-[#000316]">
+                                Scale with the right technology</h6>
+                            <p class="hidden md:flex w-[458px] text-normal text-sm leading-5 text-[#475569]">Custom
+                                software must
+                                always be designed for a specific set of business needs. We have
+                                years of commercial experience with various technologies and can choose the right tech
+                                stack for your project.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[300px] md:w-6/12">
+                    <img src="./Assets/imageOfCompanyHead.svg" alt="">
+                </div>
             </div>
         </div>
-    </section>
+    </Section>
 
     <!-- ==== Blockchain & web3 development expertise -->
     <section class="mt-[150px] container">
@@ -236,9 +273,10 @@
             <p class="w-[458px] font-semibold text-[36px] leading-[44px] text-center tracking-tight text-[#001070]">
                 Blockchain & Web3 Development Expertise.</p>
         </div>
-        <div class="flex flex-row justify-center items-center mt-[48px]">
-            <div style="background-image: url(./Assets/web3devBackground.svg);"
-                class="w-[458px] h-[525px] rounded-[24px] px-[48px] mr-[30px]">
+
+        <div class="container block md:flex justify-center items-center mt-[48px]">
+            <div
+                class="w-full md:w-5/12 h-auto rounded-[24px] px-[48px] mr-[30px] bg-[url(./Assets/web3devBackground.svg)] bg-no-repeat bg-cover mb-[30px] md:mb-0">
                 <div class="text-center">
                     <p class="pt-[48px] font-semibold text-[28px] leading-[36px] tracking-tight text-[#FFFFFF]">Web3
                         Development</p>
@@ -253,41 +291,41 @@
                         we use for Web3 & Wallets for Blockchain</p>
                     <div class="pt-2">
                         <div class="flex flex-row justify-center items-center ">
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class="group-hover:opacity-100" src="./Assets/web3/hardhat.svg" />
                                 <p class="w-[68px] h-[30px] rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     hardhat
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class="group-hover:opacity-100" src="./Assets/web3/telegram.svg" />
                                 <p
                                     class="w-[70px]  h-[30px] rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     telegram
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/myetherwallet.svg" />
                                 <p
-                                    class="w-[60px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
+                                    class="w-[30px] md:w-[30px] md:w-[60px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     Ether
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/python.svg" />
                                 <p
-                                    class="w-[60px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
+                                    class="w-[30px] md:w-[30px] md:w-[60px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     python
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/etherscan.svg" />
                                 <p
-                                    class="w-[60px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
+                                    class="w-[30px] md:w-[30px] md:w-[60px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     E-Scan
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/icytools.svg" />
                                 <p
                                     class="w-[80px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
@@ -296,42 +334,42 @@
                             </div>
                         </div>
                         <div class="flex flex-row justify-center items-center">
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/metamask.svg" />
                                 <p
                                     class="w-[70px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     Metamask
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/solidity.svg" />
                                 <p
                                     class="w-[70px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     Solidity
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/web3js.svg" />
                                 <p
                                     class="w-[70px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     Web3
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/tuffle.svg" />
                                 <p
                                     class="w-[70px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     Tuffle
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/nodejs.svg" />
                                 <p
-                                    class="w-[60px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
+                                    class="w-[30px] md:w-[30px] md:w-[60px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     Node
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/openseaapi.svg" />
                                 <p
                                     class="w-[70px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
@@ -340,35 +378,35 @@
                             </div>
                         </div>
                         <div class="flex flex-row justify-center items-center">
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class="group-hover:opacity-100" src="./Assets/web3/morailsapi.svg" />
                                 <p
-                                    class="w-[60px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
+                                    class="w-[30px] md:w-[30px] md:w-[60px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     Morails
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/uniswapsdk.svg" />
                                 <p
                                     class="w-[70px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     Uniswap
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/pancakeswapsdk.svg" />
                                 <p
                                     class="w-[70px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     Pancake
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/ERC20.svg" />
                                 <p
                                     class="w-[70px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
                                     ERC20
                                 </p>
                             </div>
-                            <div class="w-[60px] group">
+                            <div class="w-[30px] md:w-[30px] md:w-[60px] group">
                                 <img class=" group-hover:opacity-100" src="./Assets/web3/ERC223.svg" />
                                 <p
                                     class="w-[70px]  h-[30px]  rounded-lg group-hover:text-black-600 group-hover:bg-white">
@@ -381,7 +419,7 @@
                 </div>
             </div>
             <div style="background: linear-gradient(153.23deg, #F1F5F9 9.98%, #B9D4EF 95.18%);"
-                class="w-[652px] h-[528px] p-[75px] rounded-[24px]">
+                class="w-full md:w-7/12 h-auto p-[75px] rounded-[24px]">
                 <p class="font-semibold text-[28px] leading-[36px] tracking-tight text-[#001070] mb-[8px]">Scripting and
                     Task
                     Automation</p>
@@ -397,51 +435,52 @@
                     MultiloginMulti-Threaded, Scrap data, Parse data, Manipulate database, Manipulate
                     files, Update information, Upload documents, Chat, Log data in detail, Move, Scroll, Click like a
                     real human, Faster than real human. </p>
-                <p class="font-semibold text-[16px] leading-6 text-[#000316] mb-[18px] w-[305px] h-[48px]">Tech stack I
+                <p class="font-semibold text-[16px] leading-6 text-[#000316] mb-[18px] md:w-[305px] ">Tech stack
+                    I
                     use for
                     automationTech stack I use for automation</p>
-                <div class="flex flex-row mt-[18px]">
-                    <img class="w-[48px] h-[48px] mr-[24px]" src="./Assets/TaskAutomation/python.svg" alt="">
-                    <img class="w-[48px] h-[48px] mr-[24px]" src="./Assets/TaskAutomation/Scrapy.svg" alt="">
-                    <img class="w-[48px] h-[48px] mr-[24px]" src="./Assets/TaskAutomation/Regex.svg" alt="">
-                    <img class="w-[48px] h-[48px] mr-[24px]" src="./Assets/TaskAutomation/Nodejs.svg" alt="">
-                    <img class="w-[48px] h-[48px] mr-[24px]" src="./Assets/TaskAutomation/Selenium.svg" alt="">
-                    <img class="w-[48px] h-[48px] mr-[24px]" src="./Assets/TaskAutomation/Puppeteer.svg" alt="">
-
+                <div class="grid grid-cols-4 gap-x-6 md:grid-cols-6 mt-[18px]">
+                    <img class="w-[48px]" src="./Assets/TaskAutomation/python.svg" alt="">
+                    <img class="w-[48px]" src="./Assets/TaskAutomation/Scrapy.svg" alt="">
+                    <img class="w-[48px]" src="./Assets/TaskAutomation/Regex.svg" alt="">
+                    <img class="w-[48px]" src="./Assets/TaskAutomation/Nodejs.svg" alt="">
+                    <img class="w-[48px]" src="./Assets/TaskAutomation/Selenium.svg" alt="">
+                    <img class="w-[48px]" src="./Assets/TaskAutomation/Puppeteer.svg" alt="">
                 </div>
             </div>
         </div>
-        <div class="mt-[40px] flex justify-center items-center">
-            <div class="w-[848px] h-[271px] rounded-[24px] mr-[30px]"
+        <div class="container mt-[40px] block md:flex justify-center items-center">
+            <div class="md:w-8/12 h-[271px] rounded-[24px] mr-[30px] mb-[30px] md:mb-0"
                 style="background: linear-gradient(270.33deg, #000316 8.23%, #0033B5 99.9%);">
-                <div class="flex flex-row justify-center items-center">
+                <div class="block md:flex justify-center items-center">
                     <div class="mt-[84px]">
-                        <p class="font-semibold text-[28px] leading-[36px] tracking-tight text-[#FFFFFF]">Web tech stack
+                        <p class="font-semibold text-[28px] leading-[36px] tracking-tight text-[#FFFFFF]">
+                            Web tech stack
                         </p>
                         <p class="w-[300px] h-[60px] text-[#E2E8F0] text-normal text-sm leading-5">Net Core, C#,
                             Node.js, React.js, HTML5,
                             CSS3, Bootstrap, JavaScript, Rest API, MERN,
                             SQL Server, MySql</p>
                     </div>
-                    <div class="mt-[73px]">
-                        <div class="flex flex-row justify-center items-center">
-                            <img class="w-[48px] h-[48px] mr-[30px]" src="./Assets//TechStack/dotNet.svg" alt="">
-                            <img class="w-[48px] h-[48px] mr-[30px]" src="./Assets//TechStack/csharp.svg" alt="">
-                            <img class="w-[48px] h-[48px] mr-[30px]" src="./Assets//TechStack/node.svg" alt="">
-                            <img class="w-[48px] h-[48px] mr-[30px]" src="./Assets//TechStack/react.svg" alt="">
-                            <img class="w-[48px] h-[48px] mr-[30px]" src="./Assets//TechStack/mysql.svg" alt="">
+                    <div class="md:mt-[70px]">
+                        <div class="flex flex-row justify-center items-center gap-x-[10px] md:gap-x-[30px]">
+                            <img class="w-[48px]" src="./Assets//TechStack/dotNet.svg" alt="">
+                            <img class="w-[48px]" src="./Assets//TechStack/csharp.svg" alt="">
+                            <img class="w-[48px]" src="./Assets//TechStack/node.svg" alt="">
+                            <img class="w-[48px]" src="./Assets//TechStack/react.svg" alt="">
+                            <img class="w-[48px]" src="./Assets//TechStack/mysql.svg" alt="">
                         </div>
-                        <div class="flex flex-row justify-center items-center mt-[30px]">
-                            <img class="w-[48px] h-[48px] mr-[30px]" src="./Assets//TechStack/javascript.svg" alt="">
-                            <img class="w-[48px] h-[48px] mr-[30px]" src="./Assets//TechStack/sqlServer.svg" alt="">
-                            <img class="w-[48px] h-[48px] mr-[30px]" src="./Assets//TechStack/html.svg" alt="">
-                            <img class="w-[48px] h-[48px] mr-[30px]" src="./Assets//TechStack/css.svg" alt="">
+                        <div class="flex flex-row justify-center items-center mt-[30px] gap-x-[10px] md:gap-x-[30px]">
+                            <img class="w-[48px]" src="./Assets//TechStack/javascript.svg" alt="">
+                            <img class="w-[48px]" src="./Assets//TechStack/sqlServer.svg" alt="">
+                            <img class="w-[48px]" src="./Assets//TechStack/html.svg" alt="">
+                            <img class="w-[48px]" src="./Assets//TechStack/css.svg" alt="">
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div class="w-[262px] h-[271px] bg-[#E2E8F0] rounded-[24px] flex flex-row justify-start items-center">
+            <div class="md:w-4/12 h-[271px] bg-[#E2E8F0] rounded-[24px] flex flex-row justify-start items-center">
                 <img class="mt-[24px]" src="./Assets/TaskAutomation//Cardbg.svg" alt="">
                 <div class="flex flex-row items-center">
                     <p class="w-[90px] h-[48px] font-semibold leading-6 text-[16px] text-[#000316]">Learn more
@@ -453,102 +492,151 @@
     </section>
 
     <!-- ====Lets Create Big Web3 Stories together section -->
-    <section class="container bg-[#001070] rounded-[24px] mt-[150px]">
-        <div>
-            <h1 style="font-family: Switzer-semibold;"
-                class="text-[36px] leading-[44px] tracking-tight text-[#FFFFFF] w-[431px]">
-                Let's Create
-                Big Web3 Stories Together
-            </h1>
-            <p class="w-[457px] font-medium text-base leading-6 text-[#D4D4D4]">
-                Our technical experts offer a free consultation to help you plan your idea, requirements, and tokenomics
-                before beginning development.
-            </p>
-            <button class="text-black bg-[#FE7317] py-[15px] px-5 rounded-[50px]">
-                Get an Estimate
-                <img class="" src="./Assets/arrowRight.svg" alt="">
-            </button>
+    <section class="container mb-[148px] bg-[#001070] rounded-[24px] mt-[148px]">
+        <div class="px-[98px] py-[100px] flex">
+            <div class="w-6/12">
+                <h1 style="font-family: Switzer-Semibold;"
+                    class="text-[36px] font-semibold mb-[16px] leading-[44px] tracking-tight text-[#FFFFFF] w-[431px]">
+                    Let's Create
+                    Big Web3 Stories Together
+                </h1>
+                <p class="w-[457px] mb-[20px] font-medium text-base leading-6 text-[#D4D4D4]">
+                    Our technical experts offer a free consultation to help you plan your idea, requirements, and
+                    tokenomics
+                    before beginning development.
+                </p>
+                <button
+                    class="text-black bg-[#FE7317] py-[15px] px-5 gap-2 w-[190px] rounded-[50px] flex justify-center items-center">
+                    Get an Estimate
+                    <img class="" src="./Assets/arrowRight.svg" alt="">
+                </button>
+            </div>
+            <div class=" w-6/12 h-[314px] relative bg-[#D9D9D9]">
+                <div
+                    class="absolute bottom-0 right-0 w-[112px] h-[100px] rounded-tl-[36px] bg-red-900 flex items-center justify-center z-10 ">
+                    <div class=" flex items-center justify-center rounded-full w-[64px] h-[64px] bg-green-900">
+                        <img src=${cardData.img} alt="" />
+                    </div>
+                </div>
+                <div class="absolute bottom-0 right-0  w-full h-full"
+                    style="clip-path: inset(0rem 0% round 1rem 1rem 1rem 1rem);">
+
+                    <div class="absolute bottom-0 right-[112px] rounded-tr-full w-[50px] h-[50px] "
+                        style="box-shadow: 15px 15px 0 15px #FFFFFF">
+                    </div>
+                    <div class="absolute top-[100px] right-0 rounded-tr-full w-[50px] h-[50px]"
+                        style="box-shadow: 15px -15px 0 15px #FFFFFF">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-
-    <!-- Footter  -->
-    <!-- <footer>
-
-        <div class="footerTop"></div>
-
-        <div class="footerBottom">
-            <div class="Info">
-                <a href="#"> <img src="assets/images/logo.svg" alt=""> </a>
-                <div class="contactArea">
-                    <p>Dorp us a line:</p>
-                    <div class="email">
-                        <img src="" alt="">
-                        <a href="mailto:support@coredevs.ltd">support@coredevs.ltd</a>
-                    </div>
-                    <div class="email">
-                        <img src="" alt="">
-                        <a href="#">+880 1894-945333</a>
-                    </div>
+    <!-- ==== Success Stories -->
+    <section>
+        <div class="container mt-[148px]">
+            <div class="flex flex-row justify-between items-center">
+                <h1 class=" w-[618px] text-[36px] leading-[44px] tracking-tight text-[#001070]"
+                    style="font-family: Switzer-Semibold;">
+                    Success Stories: How Our Solutions Helped Businesses Overcome.</h1>
+                <div class="flex flex-row justify-center items-center">
+                    <img class="mr-5 hidden md:flex" src="./Assets/successtories/arrowleft.svg" alt="">
+                    <img src="./Assets/successtories/arrowRight.svg" alt="">
                 </div>
-
-                <div class="socialIcon">
-
-                    <a href="#"> <img src="" alt="Linkedin"> </a>
-                    <a href="#"> <img src="" alt="Twitter"> </a>
-                    <a href="#"> <img src="" alt="Instagram"> </a>
-                    <a href="#"> <img src="" alt="Facebook"> </a>
-                </div>
-
             </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 mt-[48px] gap-[30px] " id="success">
 
-            <div class="">
-
-                <p class="sectionTitle">Our Service</p>
-
-                <ul>
-
-                    <li><a href="#">Smart Contract Development</a></li>
-                    http://127.0.0.1:5500/index.html#
-
-                    <li><a href="#">Apps Development</a></li>
-
-                    <li><a href="#">Trading Automation</a></li>
-
-                    <li><a href="#">Task Automation</a></li>
-
-                    <li><a href="#">SaaS Development</a></li>
-
-                    <li><a href="#">Data Scraping & Filtering</a></li>
-
-                    <li><a href="#">Web Development</a></li>
-                </ul>
-            </div>
-            <div class="">
-
-                <p class="sectionTitle">Navigation</p>
-
-                <ul>
-                    <li><a href="#">Homepage</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Contact us</a></li>
-                </ul>
-            </div>
-            <div class="">
-                <p class="sectionTitle">Headquarters  & Territory</p>
-                <div class="address">
-                    <p>Bangladesh <span>HQ</span></p>
-                    <p>House 1041, Avenue 09, Mirpur DOHS Mirpur-12, Dhaka-1216, Bangladesh</p>
-                </div>
-                <div class="address">
-                    <p>United kingdom</p>
-                    <p>71-75, Shelton Street, Covent Garden, London, WC2H 9JQ, UNITED KINGDOM</p>
-                </div>
             </div>
         </div>
-    </footer> -->
+
+    </section>
+
+
+
+    <!-- Footter  -->
+    <!-- footer section start -->
+    <footer class="mt-[148px]">
+        <div class="footerTop"></div>
+        <div class="container5">
+            <div class="footerBottom flex flex-row">
+                <div class="Info w-3/12"> <a href="#"> <img src="assets/images/logo.svg" alt=""> </a>
+                    <div class="contactArea pt-8">
+                        <p class="text-[#000316] pb-3 font-semibold ">Dorp us a line:</p>
+                        <div class="email flex p-2.5"> <img class="border-r border-slate-200 pr-2 mr-2"
+                                src="assets/images/email icon.svg" alt=""> <a
+                                href="mailto:support@coredevs.ltd">support@coredevs.ltd</a> </div>
+                        <div class="email flex p-2.5"> <img class="border-r border-slate-200 pr-2 mr-2"
+                                src="assets/images/phoneIcon.svg" alt=""> <a href="#">+880 1894-945333</a> </div>
+                        <div class="socialMedia flex pt-8"> <img class="pr-5" src="assets/images/Linkedin.svg" alt="">
+                            <img class="pr-5" src="assets/images/twitter.svg" alt=""> <img class="pr-5"
+                                src="assets/images/in.svg" alt=""> <img class="pr-5" src="assets/images/Facebook.svg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-3/12">
+                    <p class="text-[18px] font-semibold pb-4">Our Service</p>
+                    <ul>
+                        <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
+                                    src="assets/images/listicon.svg" alt="">Smart Contract Development</a></li>
+                        <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
+                                    src="assets/images/listicon.svg" alt="">Apps Development</a></li>
+                        <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
+                                    src="assets/images/listicon.svg" alt="">Trading Automation</a></li>
+                        <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
+                                    src="assets/images/listicon.svg" alt="">Task Automation</a></li>
+                        <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
+                                    src="assets/images/listicon.svg" alt="">SaaS Development</a></li>
+                        <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
+                                    src="assets/images/listicon.svg" alt="">Data Scraping & Filtering</a></li>
+                        <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
+                                    src="assets/images/listicon.svg" alt="">Web Development</a></li>
+                    </ul>
+                </div>
+                <div class="w-3/12">
+                    <p class="text-[18px] font-semibold pb-4">Navigation</p>
+                    <ul>
+                        <li class="pb-2 "> <a class="flex flex-row " href="#"> <img class="pr-2"
+                                    src="assets/images/listicon.svg" alt="">Homepage</a> </li>
+                        <li class="pb-2"><a class="flex flex-row" href="#"> <img class="pr-2"
+                                    src="assets/images/listicon.svg" alt=""> Service</a></li>
+                        <li class="pb-2"><a class="flex flex-row" href="#"> <img class="pr-2"
+                                    src="assets/images/listicon.svg" alt=""> About us</a></li>
+                        <li class="pb-2"><a class="flex flex-row" href="#"> <img class="pr-2"
+                                    src="assets/images/listicon.svg" alt=""> Careers</a></li>
+                        <li class="pb-2"><a class="flex flex-row" href="#"> <img class="pr-2"
+                                    src="assets/images/listicon.svg" alt=""> Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="w-3/12">
+                    <p class="text-[18px] font-semibold pb-4">Headquarters & Territory</p>
+                    <div class="address pb-8">
+                        <div class=" flex items-center"> <img src="assets/images/bdflag.svg" alt="">
+                            <p class="font-semibold pl-2">Bangladesh <span class="text-[#FE7317] ">HQ</span></p>
+                        </div>
+                        <p class="text-slate-600 pt-2">House 1041, Avenue 09, Mirpur DOHS Mirpur-12, Dhaka-1216,
+                            Bangladesh</p>
+                    </div>
+                    <div class="address">
+                        <div class=" flex items-center"> <img src="assets/images/UKflag.svg" alt="">
+                            <p class="font-semibold pl-2 ">United kingdom</p>
+                        </div>
+                        <p class="text-slate-600 pt-2">71-75, Shelton Street, Covent Garden, London, WC2H 9JQ, UNITED
+                            KINGDOM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright flex items-start justify-between border-t py-8 mt-8">
+                <p class="w-4/12">This site is owned and operated by CORE DEVS LTD Copyright © 2023 All rights reserved
+                    by Core Devs</p>
+                <ul class=" w-3/12 flex items-end">
+                    <li class="pr-2"><a href="#">Terms & Conditions </a></li>
+                    <li class="pl-2 border-l border-slate-200"><a href="#">Privacy Policy </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
 
     <!-- JavaScript to toggle mobile menu -->
     <script src="./home.js"></script>
