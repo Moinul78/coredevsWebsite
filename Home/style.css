@@ -16,12 +16,22 @@ input::-webkit-inner-spin-button {
 
 h1 {
     font-family: 'Switzer-Semibold' !important;
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    line-height: 48px !important;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000316;
+}
+
+h2 {
+    font-family: 'Switzer-Semibold' !important;
     font-style: normal !important;
     font-weight: 600 !important;
     font-size: 40px !important;
     line-height: 48px !important;
     letter-spacing: -0.02em !important;
-    color: #000316 !important;
+    color: #001070 !important;
 }
 
 h6 {
