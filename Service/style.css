@@ -14,6 +14,18 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
+.child {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.child:hover {
+    opacity: 1;
+}
+
+.child:hover~.child {
+    opacity: 0.5;
+}
+
 h1 {
     font-family: 'Switzer-Semibold' !important;
     font-weight: 700 !important;
