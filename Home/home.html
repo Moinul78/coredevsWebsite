@@ -134,24 +134,27 @@
     <!-- ====Baner footer section -->
     <section class="mt-[50px]">
         <div class="container">
-            <div class="block md:flex flex-shrink-0 px-[200px] justify-between items-center">
+            <div class="block md:flex flex-shrink-0 md:px-[200px] justify-between items-center">
                 <div class="flex flex-row items-center">
                     <img src="./Assets/avatar.svg" alt="">
-                    <p class="text-sm font-normal leading-5 text-[#475569] w-[473px] h-[60px] ml-[16px]">Core Devs did
+                    <p class="text-sm font-normal leading-5 text-[#475569] w-[270px] md:w-[473px] h-[60px] ml-[16px]">
+                        Core
+                        Devs
+                        did
                         an
                         excellent
                         job working with me on how to execute my project. Even as someone with no programming
                         experience, I
                         was still able to get exactly what I wanted. Excellent work!</p>
                 </div>
-                <div class="block justify-center items-center mt-12 md:mt-0">
-                    <div class="flex flex-row justify-center items-center">
+                <div class="flex flex-col justify-left mt-12 md:mt-0">
+                    <div class="flex flex-row justify-center items-center ml-[30px] md:ml-0">
                         <p style="font-family: Switzer-Semibold;"
                             class="w-[70px] h-[36px] font-swiss font-semibold text-[28px] leading-[36px] text-[#000316] tracking-tight">
                             100%</p>
                         <img src="./Assets//verifiedUpwork.svg" alt="">
                     </div>
-                    <p class="mx-[80px] text-[#000316] font-normal text-sm">Satisfaction Customer</p>
+                    <p class="text-[#000316] ml-[80px] md:ml-0 font-normal text-sm">Satisfaction Customer</p>
                 </div>
             </div>
         </div>
@@ -216,7 +219,7 @@
                     class="text-[#001070] w-full md:w-4/12 font-semibold text-[36px] leading-[44px] max-w-[360px] tracking-tight">
                     Why do customer work with us <span class="text-[#FE7317]">?</span>
                 </h2>
-                <p class="w-[200px] md:w-5/12 font-medium text-[16px] leading-6 text-[#475569]">
+                <p class="w-[300px] md:w-5/12 font-medium text-[16px] leading-6 text-[#475569]">
                     We offer best-in-class client service and support, plus leading protection measures to ensure
                     your peace
                     of mind.
@@ -264,7 +267,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-[300px] md:w-6/12">
+                <div class="w-full md:w-6/12">
                     <img src="./Assets/imageOfCompanyHead.svg" alt="">
                 </div>
             </div>
@@ -272,7 +275,7 @@
     </Section>
 
     <!-- ==== Blockchain & web3 development expertise -->
-    <section class="mt-[150px] container">
+    <section class="mt-[148px] container">
         <div class="flex justify-center items-center">
             <p class="w-[458px] font-semibold text-[36px] leading-[44px] text-center tracking-tight text-[#001070]">
                 Blockchain & Web3 Development Expertise.</p>
@@ -454,14 +457,14 @@
             </div>
         </div>
         <div class="container mt-[40px] block md:flex justify-center items-center">
-            <div class="md:w-8/12 h-[271px] rounded-[24px] mr-[30px] mb-[30px] md:mb-0"
+            <div class="md:w-8/12 h-[271px] rounded-[24px] md:mr-[30px] mb-[30px] md:mb-0"
                 style="background: linear-gradient(270.33deg, #000316 8.23%, #0033B5 99.9%);">
-                <div class="block md:flex justify-center items-center">
-                    <div class="mt-[84px]">
+                <div class="block md:flex justify-center items-center p-[20px] md:p-0">
+                    <div class="md:mt-[84px]">
                         <p class="font-semibold text-[28px] leading-[36px] tracking-tight text-[#FFFFFF]">
                             Web tech stack
                         </p>
-                        <p class="w-[300px] h-[60px] text-[#E2E8F0] text-normal text-sm leading-5">Net Core, C#,
+                        <p class="md:w-[300px] h-[60px] text-[#E2E8F0] text-normal text-sm leading-5">Net Core, C#,
                             Node.js, React.js, HTML5,
                             CSS3, Bootstrap, JavaScript, Rest API, MERN,
                             SQL Server, MySql</p>
@@ -496,45 +499,65 @@
     </section>
 
     <!-- ====Lets Create Big Web3 Stories together section -->
-    <!-- <section class="container mb-[148px] bg-[#001070] rounded-[24px] mt-[148px]">
-        <div class="px-[98px] py-[100px] flex">
-            <div class="w-6/12">
+    <section class="container mt-[148px]">
+        <div class="px-5 md:px-[98px] py-[100px] bg-[#001070] rounded-[24px] block md:flex gap-3">
+            <div class="md:w-6/12">
                 <h1 style="font-family: Switzer-Semibold;"
-                    class="text-[36px] font-semibold mb-[16px] leading-[44px] tracking-tight text-[#FFFFFF] w-[431px]">
+                    class="text-[36px] font-semibold mb-[16px] leading-[44px] tracking-tight text-[#FFFFFF] md:w-[431px]">
                     Let's Create
                     Big Web3 Stories Together
                 </h1>
-                <p class="w-[457px] mb-[20px] font-medium text-base leading-6 text-[#D4D4D4]">
+                <p class="md:w-[457px] mb-[20px] font-medium text-base leading-6 text-[#D4D4D4]">
                     Our technical experts offer a free consultation to help you plan your idea, requirements, and
                     tokenomics
                     before beginning development.
                 </p>
                 <button
-                    class="text-black bg-[#FE7317] py-[15px] px-5 gap-2 w-[190px] rounded-[50px] flex justify-center items-center">
+                    class="text-black bg-[#FE7317] py-[15px] px-5 gap-2 w-[190px] rounded-[50px] flex justify-center items-center mb-5">
                     Get an Estimate
                     <img class="" src="./Assets/arrowRight.svg" alt="">
                 </button>
             </div>
-            <div class=" w-6/12 h-[314px] relative bg-[#D9D9D9]">
-                <div
-                    class="absolute bottom-0 right-0 w-[112px] h-[100px] rounded-tl-[36px] bg-red-900 flex items-center justify-center z-10 ">
-                    <div class=" flex items-center justify-center rounded-full w-[64px] h-[64px] bg-green-900">
-                        <img src=${cardData.img} alt="" />
+            <div class="md:w-6/12 flex justify-center items-center">
+                <div class="w-full md:w-[360px] h-[264px] rounded-[10px] relative bg-[#D9D9D9]">
+                    <div
+                        class="absolute bottom-0 right-0 w-[112px] h-[100px]  rounded-tl-[36px] bg-[#001070] flex items-center justify-center z-10 ">
+                        <div class=" flex items-center justify-center rounded-full w-[64px] h-[64px] bg-green-900">
+                            <img src="Assets/avatarCEO.svg" alt="" />
+                        </div>
                     </div>
-                </div>
-                <div class="absolute bottom-0 right-0  w-full h-full"
-                    style="clip-path: inset(0rem 0% round 1rem 1rem 1rem 1rem);">
+                    <div class="absolute bottom-0 right-0   w-full h-full"
+                        style="clip-path: inset(0rem 0% round 1rem 1rem 1rem 1rem);">
+                        <div class="p-[30px]">
+                            <h6
+                                class="md:w-[262px] font-medium text-[20px] leading-5 tracking-tight tex-[#000316] mb-[30px]">
+                                Or Read
+                                to speak
+                                with business consultant expert?</h6>
+                            <div class="flex justify-left items-center gap-[30px]">
+                                <img class="" src="./Assets/whatsappIcon.svg" alt="">
+                                <img class="" src="./Assets/zoomIcon.svg" alt="">
+                            </div>
+                            <div class="mt-[25px]">
+                                <p style="font-family: 'Inter', sans-serif;
+                            font-family: 'Yellowtail', cursive;"
+                                    class="font-normal text-[20px] leding-6 text-[#334155] w-[400px]">Mahbub Shuvo</p>
+                                <p class="text-xs text-[#64748B] font-normal leading-6 w-[400px]">CEO at Core Devs ltd
+                                </p>
+                            </div>
+                        </div>
 
-                    <div class="absolute bottom-0 right-[112px] rounded-tr-full w-[50px] h-[50px] "
-                        style="box-shadow: 15px 15px 0 15px #FFFFFF">
-                    </div>
-                    <div class="absolute top-[100px] right-0 rounded-tr-full w-[50px] h-[50px]"
-                        style="box-shadow: 15px -15px 0 15px #FFFFFF">
+                        <div class="absolute bottom-[100px] rotate-90 right-0 border-none rounded-tr-full w-[50px] h-[50px] "
+                            style="box-shadow: 15px -15px 0 10px #001070">
+                        </div>
+                        <div class="absolute bottom-0 rotate-90 right-[110px] rounded-tr-full w-[50px] h-[50px]"
+                            style="box-shadow: 15px -15px 0 10px #001070">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- Top web3 development company by upwork -->
     <section class="mt-[148px]">
@@ -559,7 +582,8 @@
                             <div class="absolute bottom-0 left-[120px]">
                                 <p style="font-family: 'Inter', sans-serif;
                             font-family: 'Yellowtail', cursive;"
-                                    class="font-normal text-[20px] leding-6 text-[#334155] w-[400px]">Nils Spoelgen</p>
+                                    class="font-normal text-[20px] leding-6 text-[#334155] w-[400px]">Nils Spoelgen
+                                </p>
                                 <p class="text-xs text-[#64748B] font-normal leading-6 w-[400px]">Upwork verified Review
                                 </p>
                             </div>
@@ -569,7 +593,10 @@
                         <div class="mt-[48px] px-[28px] hover:bg-[url('./Assets/cardBg.svg')] bg-no-repeat bg-left">
                             <div class="px-[30px] pt-[26px]">
                                 <img src="./Assets/doubleQuotes.svg" alt="">
-                                <p class="text-sm font-normal leading-5 text-[#475569]  mb-[99px] mt-[15px]">Core Devs
+                                <p
+                                    class="text-xs md:text-sm font-normal leading-5 text-[#475569]  mb-[99px] md:mt-[15px]">
+                                    Core
+                                    Devs
                                     has been a great team to work with. During the development process of our toolwe ran
                                     into a few issues that couldn't be foreseen. Shuvo and his team almost
                                     doubled
@@ -690,19 +717,20 @@
         <div class="footerTop"></div>
         <div>
             <div class=" block md:flex flex-row">
-                <div class="Info md:w-3/12"> <a href="#"> <img src="./Assets/footer/logo.svg" alt=""> </a>
+                <div class="Info md:w-3/12"> <a href="#"> <img src="../Home/Assets/footer/logo.svg" alt=""> </a>
                     <div class="pt-8">
                         <p class="text-[#000316] pb-3 font-semibold ">Dorp us a line:</p>
                         <div class="flex p-2.5"> <img class="border-r border-slate-200 pr-2 mr-2"
-                                src="./Assets/footer/email icon.svg" alt=""> <a
+                                src="../Home/Assets/footer/email icon.svg" alt=""> <a
                                 href="mailto:support@coredevs.ltd">support@coredevs.ltd</a> </div>
                         <div class="email flex p-2.5"> <img class="border-r border-slate-200 pr-2 mr-2"
-                                src="./Assets/footer/phoneIcon.svg" alt=""> <a href="#">+880 1894-945333</a> </div>
+                                src="../Home/Assets/footer/phoneIcon.svg" alt=""> <a href="#">+880 1894-945333</a>
+                        </div>
                         <div class="flex pt-8 mb-[34px]">
-                            <img class="pr-5" src="./Assets/footer/Linkedin.svg" alt="">
-                            <img class="pr-5" src="./Assets/footer/twitter.svg" alt="">
-                            <img class="pr-5" src="./Assets/footer/in.svg" alt="">
-                            <img class="pr-5" src="./Assets/footer/Facebook.svg" alt="">
+                            <img class="pr-5" src="../Home/Assets/footer/Linkedin.svg" alt="">
+                            <img class="pr-5" src="../Home/Assets/footer/twitter.svg" alt="">
+                            <img class="pr-5" src="../Home/Assets/footer/in.svg" alt="">
+                            <img class="pr-5" src="../Home/Assets/footer/Facebook.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -710,50 +738,53 @@
                     <p class="text-[18px] font-semibold pb-4">Our Service</p>
                     <ul>
                         <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
-                                    src="./Assets/footer/listicon.svg" alt="">Smart Contract Development</a></li>
+                                    src="../Home/Assets/footer/listicon.svg" alt="">Smart Contract Development</a>
+                        </li>
                         <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
-                                    src="./Assets/footer/listicon.svg" alt="">Apps Development</a></li>
+                                    src="../Home/Assets/footer/listicon.svg" alt="">Apps Development</a></li>
                         <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
-                                    src="./Assets/footer/listicon.svg" alt="">Trading Automation</a></li>
+                                    src="../Home/Assets/footer/listicon.svg" alt="">Trading Automation</a></li>
                         <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
-                                    src="./Assets/footer/listicon.svg" alt="">Task Automation</a></li>
+                                    src="../Home/Assets/footer/listicon.svg" alt="">Task Automation</a></li>
                         <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
-                                    src="./Assets/footer/listicon.svg" alt="">SaaS Development</a></li>
+                                    src="../Home/Assets/footer/listicon.svg" alt="">SaaS Development</a></li>
                         <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
-                                    src="./Assets/footer/listicon.svg" alt="">Data Scraping & Filtering</a></li>
+                                    src="../Home/Assets/footer/listicon.svg" alt="">Data Scraping & Filtering</a>
+                        </li>
                         <li class="pb-2"><a class="flex flex-row " href="#"> <img class="pr-2"
-                                    src="./Assets/footer/listicon.svg" alt="">Web Development</a></li>
+                                    src="../Home/Assets/footer/listicon.svg" alt="">Web Development</a></li>
                     </ul>
                 </div>
                 <div class="md:w-3/12">
                     <p class="text-[18px] font-semibold pb-4">Navigation</p>
                     <ul>
                         <li class="pb-2 "> <a class="flex flex-row " href="#"> <img class=" pr-2"
-                                    src="./Assets/footer/listicon.svg" alt="">Homepage</a> </li>
+                                    src="../Home/Assets/footer/listicon.svg" alt="">Homepage</a> </li>
                         <li class="pb-2"><a class="flex flex-row" href="#"> <img class="pr-2"
-                                    src="./Assets/footer/listicon.svg" alt=""> Service</a></li>
+                                    src="../Home/Assets/footer/listicon.svg" alt=""> Service</a></li>
                         <li class="pb-2"><a class="flex flex-row" href="#"> <img class="pr-2"
-                                    src="./Assets/footer/listicon.svg" alt=""> About us</a></li>
+                                    src="../Home/Assets/footer/listicon.svg" alt=""> About us</a></li>
                         <li class="pb-2"><a class="flex flex-row" href="#"> <img class="pr-2"
-                                    src="./Assets/footer/listicon.svg" alt=""> Careers</a></li>
+                                    src="../Home/Assets/footer/listicon.svg" alt=""> Careers</a></li>
                         <li class="pb-2"><a class="flex flex-row" href="#"> <img class="pr-2"
-                                    src="./Assets/footer/listicon.svg" alt=""> Contact us</a></li>
+                                    src="../Home/Assets/footer/listicon.svg" alt=""> Contact us</a></li>
                     </ul>
                 </div>
                 <div class="md:w-3/12">
                     <p class="text-[18px] font-semibold pb-4">Headquarters & Territory</p>
                     <div class="pb-8">
-                        <div class=" flex items-center"> <img src="./Assets/footer/bdflag.svg" alt="">
+                        <div class=" flex items-center"> <img src="../Home/Assets/footer/bdflag.svg" alt="">
                             <p class="font-semibold pl-2">Bangladesh <span class="text-[#FE7317] ">HQ</span></p>
                         </div>
                         <p class="text-slate-600 pt-2">House 1041, Avenue 09, Mirpur DOHS Mirpur-12, Dhaka-1216,
                             Bangladesh</p>
                     </div>
                     <div>
-                        <div class=" flex items-center"> <img src="./Assets/footer/UKflag.svg" alt="">
+                        <div class=" flex items-center"> <img src="../Home/Assets/footer/UKflag.svg" alt="">
                             <p class="font-semibold pl-2 ">United kingdom</p>
                         </div>
-                        <p class="text-slate-600 pt-2">71-75, Shelton Street, Covent Garden, London, WC2H 9JQ, UNITED
+                        <p class="text-slate-600 pt-2">71-75, Shelton Street, Covent Garden, London, WC2H 9JQ,
+                            UNITED
                             KINGDOM</p>
                     </div>
                 </div>
