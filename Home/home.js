@@ -82,7 +82,7 @@ const cards = cardData.map((cardData) => {
               consequat duis enim velit mollit.
           </p>
           <div
-              class="hidden mb-[30px]w w-[150px] h-[42px] border rounded-[50px] md:flex flex-row justify-start items-center bg-[#FFE3D1]">
+              class="hidden mb-[30px] w-[150px] h-[42px] border rounded-[50px] md:flex flex-row justify-start items-center bg-[#FFE3D1]">
               <button class="font-semibold text-[14px] leading-5 p-[11px] ml-[9px] text-[#FE7317]">Learn
                   more</button>
               <img src="./Assets/arrowRight.svg" alt="" />

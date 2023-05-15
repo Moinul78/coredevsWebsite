@@ -23,7 +23,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="../Asset/font/switzer/css/switzer.css">
-    <link rel="stylesheet" href="../Home/style.css">
+    <link rel="stylesheet" href="../Service/style.css">
     <!-- ==== tailwind ====  -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -32,7 +32,7 @@
 <body>
     <section>
         <!-- ==== Navbar ==== -->
-        <div class="container">
+        <div class="container fixed top-0 left-0 right-0 bg-white z-50">
             <nav class="font-inter">
                 <div class="max-w-full">
                     <div class="flex justify-between h-16">
@@ -50,17 +50,18 @@
                         <!-- Links -->
                         <div
                             class="hidden sm:flex sm:items-center sm:ml-6 h-[42px] border-[0.5px] border-[#cbd5e133] rounded-[50px] mt-[16px] gap-x-[20px]">
+                            <a href="#"
+                                class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Home</a>
+                            <a href="#"
+                                class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">About
+                                Us</a>
+
                             <div class="flex flex-row justify-center items-center">
                                 <p class="rounded-full bg-[#FE7317] w-[4px] h-[4px] ml-4"></p>
                                 <a href="#" style="font-family: Switzer-Semibold;"
                                     class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">
-                                    Home </a>
+                                    Services </a>
                             </div>
-                            <a href="#"
-                                class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">About
-                                Us</a>
-                            <a href="#"
-                                class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Services</a>
                             <a href="#" class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Case
                                 Study</a>
                             <a href="#"
@@ -146,24 +147,24 @@
                     </div>
                 </div>
                 <div>
-                    <div class="bg-[#FFF1E8] border rounded-[24px]  md:w-full mt-2 p-[30px]">
+                    <div class="bg-[#FFF1E8] border rounded-[24px] mt-2 p-[30px]">
                         <h5>Choose your topic to book a schedule with us</h5>
                         <div class="mt-[21px]">
                             <p class="text-sm font-normal leading-5 text-[#000316] mb-1">Full name</p>
                             <input
-                                class="md:w-[495px] h-[48px] text-[#475569] outline-0 text-sm leading-5 font-normal flex justify-start items-center py-[14px] px-3 gap-[10px]"
+                                class="w-full h-[48px] text-[#475569] outline-0 text-sm leading-5 font-normal flex justify-start items-center py-[14px] px-3 gap-[10px]"
                                 type="text" placeholder="Jaded Pixel">
                         </div>
                         <div class="mt-[21px]">
                             <p class="text-sm font-normal leading-5 text-[#000316] mb-1">Email Address</p>
                             <input
-                                class="md:w-[495px] h-[48px] text-[#475569] outline-0 text-sm leading-5 font-normal flex justify-start items-center py-[14px] px-3 gap-[10px]"
+                                class="w-full h-[48px] text-[#475569] outline-0 text-sm leading-5 font-normal flex justify-start items-center py-[14px] px-3 gap-[10px]"
                                 type="text" placeholder="Jaded Pixel">
                         </div>
                         <div class="mt-[21px]">
                             <p class="text-sm font-normal leading-5 text-[#000316] mb-1">Phone Number</p>
                             <div
-                                class="w-[250px] md:w-[495px] h-[48px] flex justify-start items-center bg-white py-[14px] px-3 gap-[10px]">
+                                class="w-full h-[48px] flex justify-start items-center bg-white py-[14px] px-3 gap-[10px]">
                                 <img src="./Asset/bd.svg" alt="">
                                 <p>+880</p>
                                 <input
@@ -173,8 +174,7 @@
                         </div>
                         <div class="mt-[21px]">
                             <p class="text-sm font-normal leading-5 text-[#000316] mb-1">Project Details</p>
-                            <div
-                                class="w-[250px] md:w-[495px] flex justify-start items-center bg-white py-[14px] px-3 gap-[10px]">
+                            <div class="w-full flex justify-start items-center bg-white py-[14px] px-3 gap-[10px]">
                                 <input
                                     class="h-[80px] w-full top-0 flex justify-start items-start outline-0 text-[#475569] text-sm leading-5 font-normal"
                                     type="text" placeholder="Write your small project brief">
