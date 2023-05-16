@@ -29,9 +29,9 @@
 <body>
     <section>
         <!-- ==== Navbar ==== -->
-        <div class="container fixed top-0 left-0 right-0 bg-white">
-            <nav class="font-inter">
-                <div class="max-w-full">
+        <div class="fixed top-0 left-0 right-0 bg-white z-50">
+            <nav>
+                <div class="container">
                     <div class="flex justify-between h-16">
                         <!-- Logo -->
                         <div class="flex-shrink-0 flex items-center">
@@ -47,21 +47,20 @@
                         <!-- Links -->
                         <div
                             class="hidden sm:flex sm:items-center sm:ml-6 h-[42px] border-[0.5px] border-[#cbd5e133] rounded-[50px] mt-[16px] gap-x-[20px]">
-                            <a href="#"
+                            <a href="../Home/home.html"
                                 class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Home</a>
-                            <a href="#"
+                            <a href="../Home/home.html"
                                 class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">About
                                 Us</a>
 
                             <div class="flex flex-row justify-center items-center">
                                 <p class="rounded-full bg-[#FE7317] w-[4px] h-[4px] ml-4"></p>
-                                <a href="#" style="font-family: Switzer-Semibold;"
-                                    class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">
-                                    Services </a>
+                                <a href="../Service/service.html"
+                                    class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Services</a>
                             </div>
                             <a href="#" class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Case
                                 Study</a>
-                            <a href="#"
+                            <a href="../BlogDetails/blogDetails.html"
                                 class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Blog</a>
                             <a href="#"
                                 class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Career</a>
@@ -69,24 +68,26 @@
                         <div
                             class="hidden md:flex items-center justify-center py-[9px] px-4 mt-4 gap-x-2 bg-[#000316] text-white border rounded-[50px] h-[42px]">
                             <img class="stroke-white	" src="./Asset/calendar.svg" alt="">
-                            <p>Schedule a call</p>
+                            <a href="../Contact/ScheduleCall.html"
+                                class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">Schedule a
+                                call</a>
                         </div>
                     </div>
                 </div>
                 <!-- Mobile menu, toggle classes based on menu state -->
                 <div class="hidden sm:hidden" id="mobile-menu">
                     <div class="px-2 pt-2 pb-3">
-                        <a href="#"
+                        <a href="../Home/home.html"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Home</a>
-                        <a href="#"
+                        <a href="../Home/home.html"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">About
                             Us</a>
-                        <a href="#"
+                        <a href="../Service/service.html"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Services</a>
                         <a href="#"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Case
                             Study</a>
-                        <a href="#"
+                        <a href="../BlogDetails/blogDetails.html"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Blog</a>
                         <a href="#"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Career</a>
@@ -94,7 +95,6 @@
                 </div>
             </nav>
         </div>
-
     </section>
 
     <!-- Service details banner section -->
@@ -108,15 +108,35 @@
                     Unlock the Power of Decentralized Technology Expert Smart Contract Development Services by Core
                     Devs
                 </h6>
-                <div class="flex justify-center items-center">
-                    <img src="./Asset/discussNeeds.svg" alt="">
+            </div>
+        </div>
+        <div class=" hidden md:block">
+            <div class="flex flex-row justify-center items-center">
+                <div class="px-[36px] py-[25px] bg-white mb-[-80px] overflow-hidden relative rounded-[50px]">
+                    <div class="flex gap-1 bg-[#FE7317] py-[15px] px-[20px] w-[220px] rounded-[50px]">
+                        <button>Discuss your needs</button>
+                        <img src="./Asset/blackarrowRight.svg" alt="">
+                    </div>
                 </div>
-                <div>
-                    <iframe class="w-full h-[500px]" src="https://www.youtube.com/embed/pF-3S-HTJSg?start=8?autoplay=1"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        &autoplay=1 allowfullscreen></iframe>
+            </div>
+            <div class="w-full h-[85vh]  p-5">
+                <video class="w-full h-auto rounded-[24px]" autoplay muted loop id="myVideo">
+                    <source src="./Asset/video/lol.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+            <div class="">
+                <div class="container">
+                    <p class="text-white text-[64px] leading-[68px] font-extrabold	">Smart
+                        Contracts
+                        Made Simple
+                        Service Showreeel
+                        <button
+                            class="text-white text-[20px] px-[20px] bg-[url('./Asset/watchNow.svg')] bg-no-repeat">Watch
+                            Now</button>
+                    </p>
                 </div>
+
             </div>
         </div>
     </section>
@@ -125,9 +145,9 @@
     <section class="mt-[114px]">
         <div class="container">
             <div class="grid grid-cols-1 md:grid-cols-2">
-                <div class="flex flex-col p-[60px]">
-                    <h2 class="w-[458px]">Smart Contract Development Services.</h2>
-                    <p class="w-[360px] text-[#64748B] text-[18px] font-normal leading-7">Choose our services to get
+                <div class="flex flex-col md:p-[60px]">
+                    <h2 class="md:w-[458px]">Smart Contract Development Services.</h2>
+                    <p class="md:w-[360px] text-[#64748B] text-[18px] font-normal leading-7">Choose our services to get
                         accurately coded
                         smart contracts</p>
                 </div>
@@ -195,7 +215,7 @@
                     <p style="font-family: 'Switzer-Semibold';"
                         class="text-[20px] font-semibold text-[#B3B7D4] leading-5 mb-2">01</p>
                     <h5>Rigorous Audit Expertise </h5>
-                    <p class="text-[#64748B] text-[18px] font-normal leading-7 w-[300px] mt-4">We have a multi-stage
+                    <p class="text-[#64748B] text-[18px] font-normal leading-7 md:w-[300px] mt-4">We have a multi-stage
                         audit system and deep expertise in smart contract development, so we can provide you with
                         accurate and up-to-date advice on the most efficient smart contract solutions.  </p>
                 </div>
@@ -203,7 +223,8 @@
                     <p style="font-family: 'Switzer-Semibold';"
                         class="text-[20px] font-semibold text-[#B3B7D4] leading-5 mb-2">02</p>
                     <h5>Robust Testing & Security </h5>
-                    <p class="text-[#64748B] text-[18px] font-normal leading-7 w-[300px] mt-4">Our comprehensive testing
+                    <p class="text-[#64748B] text-[18px] font-normal leading-7 md:w-[300px] mt-4">Our comprehensive
+                        testing
                         process, conducted alongside development, delivers secure and reliable smart contracts for
                         optimal business performance and peace of mind. </p>
                 </div>
@@ -211,7 +232,7 @@
                     <p style="font-family: 'Switzer-Semibold';"
                         class="text-[20px] font-semibold text-[#B3B7D4] leading-5 mb-2">03</p>
                     <h5>Tailored Smart Contracts  </h5>
-                    <p class="text-[#64748B] text-[18px] font-normal leading-7 w-[300px] mt-4">We can help you create
+                    <p class="text-[#64748B] text-[18px] font-normal leading-7 md:w-[300px] mt-4">We can help you create
                         custom smart contracts that are tailored to your specific business needs, allowing you to
                         maximize the efficiency and security of your transactions. </p>
                 </div>
@@ -371,15 +392,16 @@
     </section>
 
 
+    <!-- Top web3 development company by upwork -->
     <section class="mt-[148px]">
         <div class="container">
             <div class="flex flex-row justify-between items-center">
-                <h1 class="w-[458px] text-left text-[36px] leading-[44px] tracking-tight text-[#001070]"
+                <h1 class="md:w-[458px] text-left text-[36px] leading-[44px] tracking-tight text-[#001070]"
                     style="font-family: Switzer-Semibold;">
                     Top Web3 Development Company by Upwork.</h1>
                 <div class="flex flex-row justify-center items-center">
                     <img class="mr-5 hidden md:flex" src="../Home/Assets/successtories/arrowleft.svg" alt="">
-                    <img src="../Home/Assets/successtories/arrowRight.svg" alt="">
+                    <img class="mr-5 hidden md:flex" src="../Home/Assets/successtories/arrowRight.svg" alt="">
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-[30px]">
@@ -392,18 +414,22 @@
                             </div>
                             <div class="absolute bottom-0 left-[120px]">
                                 <p style="font-family: 'Inter', sans-serif;
-                            font-family: 'Yellowtail', cursive;"
-                                    class="font-normal text-[20px] leding-6 text-[#334155] w-[400px]">Nils Spoelgen</p>
+                        font-family: 'Yellowtail', cursive;"
+                                    class="font-normal text-[20px] leding-6 text-[#334155] w-[400px]">Nils Spoelgen
+                                </p>
                                 <p class="text-xs text-[#64748B] font-normal leading-6 w-[400px]">Upwork verified Review
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="absolute top-0 right-0" style="clip-path: inset(0rem 0% round 1rem 1rem 1rem 1rem);">
-                        <div class="mt-[48px] px-[28px] hover:bg-[url('./Assets/cardBg.svg')] bg-no-repeat bg-left">
+                        <div class="mt-[48px] px-[28px] hover:bg-[url('./Asset/cardBg.svg')] bg-no-repeat bg-left">
                             <div class="px-[30px] pt-[26px]">
                                 <img src="./Asset/doubleQuotes.svg" alt="">
-                                <p class="text-sm font-normal leading-5 text-[#475569]  mb-[99px] mt-[15px]">Core Devs
+                                <p
+                                    class="text-xs md:text-sm font-normal leading-5 text-[#475569]  mb-[99px] md:mt-[15px]">
+                                    Core
+                                    Devs
                                     has been a great team to work with. During the development process of our toolwe ran
                                     into a few issues that couldn't be foreseen. Shuvo and his team almost
                                     doubled
@@ -433,7 +459,7 @@
                             </div>
                             <div class="absolute bottom-0 left-[120px]">
                                 <p style="font-family: 'Inter', sans-serif;
-                            font-family: 'Yellowtail', cursive;"
+                        font-family: 'Yellowtail', cursive;"
                                     class="font-normal text-[20px] leding-6 text-[#334155] w-[400px]">Alex Gon</p>
                                 <p class="text-xs text-[#64748B] font-normal leading-6 w-[400px]">Upwork verified Review
                                 </p>
@@ -441,7 +467,7 @@
                         </div>
                     </div>
                     <div class="absolute top-0 right-0" style="clip-path: inset(0rem 0% round 1rem 1rem 1rem 1rem);">
-                        <div class="mt-[48px] px-[28px] hover:bg-[url('./Assets/cardBg.svg')] bg-no-repeat bg-left">
+                        <div class="mt-[48px] px-[28px] hover:bg-[url('./Asset/cardBg.svg')] bg-no-repeat bg-left">
                             <div class="px-[30px] pt-[26px]">
                                 <img src="./Asset/doubleQuotes.svg" alt="">
                                 <p class="text-sm font-normal leading-5 text-[#475569]  mb-[99px] mt-[15px]">Mahbub &
@@ -464,11 +490,11 @@
                         class="absolute bottom-0 left-0 w-[112px] h-[100px] rounded-tr-[36px] bg-white flex items-center justify-center z-10 ">
                         <div class="relative">
                             <div class=" flex items-center justify-center rounded-full w-[80px] h-[80px]">
-                                <img class="" src="./Asset/avatar1.svg" alt="">
+                                <img class="" src="./Asset/avatar3.svg" alt="">
                             </div>
                             <div class="absolute bottom-0 left-[120px]">
                                 <p style="font-family: 'Inter', sans-serif;
-                            font-family: 'Yellowtail', cursive;"
+                        font-family: 'Yellowtail', cursive;"
                                     class="font-normal text-[20px] leding-6 text-[#334155] w-[400px]">Robert Novak</p>
                                 <p class="text-xs text-[#64748B] font-normal leading-6 w-[400px]">Upwork verified Review
                                 </p>
@@ -476,7 +502,7 @@
                         </div>
                     </div>
                     <div class="absolute top-0 right-0" style="clip-path: inset(0rem 0% round 1rem 1rem 1rem 1rem);">
-                        <div class="mt-[48px] px-[28px] hover:bg-[url('./Assets/cardBg.svg')] bg-no-repeat bg-left">
+                        <div class="mt-[48px] px-[28px] hover:bg-[url('./Asset/cardBg.svg')] bg-no-repeat bg-left">
                             <div class="px-[30px] pt-[26px]">
                                 <img src="./Asset/doubleQuotes.svg" alt="">
                                 <p class="text-sm font-normal leading-5 text-[#475569]  mb-[99px] mt-[15px]">very

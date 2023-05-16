@@ -29,9 +29,9 @@
 <body>
     <section>
         <!-- ==== Navbar ==== -->
-        <div class="container fixed top-0 left-0 right-0 bg-white z-50">
-            <nav class="font-inter">
-                <div class="max-w-full">
+        <div class="fixed top-0 left-0 right-0 bg-white z-50">
+            <nav>
+                <div class="container">
                     <div class="flex justify-between h-16">
                         <!-- Logo -->
                         <div class="flex-shrink-0 flex items-center">
@@ -47,21 +47,20 @@
                         <!-- Links -->
                         <div
                             class="hidden sm:flex sm:items-center sm:ml-6 h-[42px] border-[0.5px] border-[#cbd5e133] rounded-[50px] mt-[16px] gap-x-[20px]">
-                            <a href="#"
+                            <a href="../Home/home.html"
                                 class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Home</a>
-                            <a href="#"
+                            <a href="../Home/home.html"
                                 class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">About
                                 Us</a>
 
                             <div class="flex flex-row justify-center items-center">
                                 <p class="rounded-full bg-[#FE7317] w-[4px] h-[4px] ml-4"></p>
-                                <a href="#" style="font-family: Switzer-Semibold;"
-                                    class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">
-                                    Services </a>
+                                <a href="../Service/service.html"
+                                    class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Services</a>
                             </div>
                             <a href="#" class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Case
                                 Study</a>
-                            <a href="#"
+                            <a href="../BlogDetails/blogDetails.html"
                                 class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Blog</a>
                             <a href="#"
                                 class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Career</a>
@@ -69,24 +68,26 @@
                         <div
                             class="hidden md:flex items-center justify-center py-[9px] px-4 mt-4 gap-x-2 bg-[#000316] text-white border rounded-[50px] h-[42px]">
                             <img class="stroke-white	" src="./Asset/calendar.svg" alt="">
-                            <p>Schedule a call</p>
+                            <a href="../Contact/ScheduleCall.html"
+                                class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">Schedule a
+                                call</a>
                         </div>
                     </div>
                 </div>
                 <!-- Mobile menu, toggle classes based on menu state -->
                 <div class="hidden sm:hidden" id="mobile-menu">
                     <div class="px-2 pt-2 pb-3">
-                        <a href="#"
+                        <a href="../Home/home.html"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Home</a>
-                        <a href="#"
+                        <a href="../Home/home.html"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">About
                             Us</a>
-                        <a href="#"
+                        <a href="../Service/service.html"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Services</a>
                         <a href="#"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Case
                             Study</a>
-                        <a href="#"
+                        <a href="../BlogDetails/blogDetails.html"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Blog</a>
                         <a href="#"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Career</a>
@@ -94,7 +95,6 @@
                 </div>
             </nav>
         </div>
-
     </section>
 
     <!-- ==== Card Section ==== -->
@@ -114,11 +114,11 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-[30px]">
                 <div
-                    class="[&>div>div>div>div]:hover:bg-[#FE7317] [&>div>div>div>div>button]:hover:text-white [&>*:nth-child(2)]:hover:bg-[#E6E7F1] [&>div>div]:hover:bg-[#E6E7F1] [&>div>div>div>img]:hover:rotate-[-6deg]  w-full h-[150px] md:h-[314px] relative bg-[#d9d9d930] md:col-span-2">
+                    class="[&>div>div>div>div]:hover:bg-[#FE7317] [&>div>div>div>div>a]:hover:text-white [&>*:nth-child(2)]:hover:bg-[#E6E7F1] [&>div>div]:hover:bg-[#E6E7F1] [&>div>div>div>img]:hover:rotate-[-6deg]  w-full h-[150px] md:h-[314px] relative bg-[#d9d9d930] md:col-span-2">
                     <div
                         class="absolute top-0 right-0 w-[112px] h-[100px] rounded-bl-[36px] bg-white flex items-center justify-center z-10 ">
                         <div class=" flex items-center justify-center rounded-full w-[64px] h-[64px] bg-[#FFFFFF]">
-                            <img src="Assets/ctaIcon.svg" alt="" />
+                            <img src="../Home/Assets/ctaIcon.svg" alt="" />
                         </div>
                     </div>
                     <div class="absolute top-0 right-0  w-full h-full"
@@ -141,9 +141,9 @@
                                 </p>
                                 <div
                                     class="hidden md:flex flex-row justify-start items-center mb-[30px] w-[150px] h-[42px] border rounded-[50px] bg-[#FFE3D1]">
-                                    <button
+                                    <a href="./serviceDetails.html"
                                         class="font-semibold text-[14px] leading-5 p-[11px] ml-[9px] text-[#FE7317]">Learn
-                                        more</button>
+                                        more</a>
                                     <img src="../Home/Assets/arrowRight.svg" alt="" />
                                 </div>
                             </div>
@@ -161,11 +161,11 @@
                     </div>
                 </div>
                 <div
-                    class="[&>div>div>div]:hover:bg-[#FE7317] [&>div>div>div>button]:hover:text-white [&>*:nth-child(2)]:hover:bg-[#E6E7F1] [&>div>div]:hover:bg-[#E6E7F1] w-full h-[150px] md:h-[314px] relative bg-[#d9d9d930] ">
+                    class="[&>div>div>div]:hover:bg-[#FE7317] [&>div>div>div>a]:hover:text-white [&>*:nth-child(2)]:hover:bg-[#E6E7F1] [&>div>div]:hover:bg-[#E6E7F1] w-full h-[150px] md:h-[314px] relative bg-[#d9d9d930] ">
                     <div
                         class="absolute top-0 right-0 w-[112px] h-[100px] rounded-bl-[36px] bg-white flex items-center justify-center z-10 ">
                         <div class=" flex items-center justify-center rounded-full w-[64px] h-[64px] bg-[#FFFFFF]">
-                            <img src="Assets/dappsIcon.svg" alt="" />
+                            <img src="../Home/Assets/dappsIcon.svg" alt="" />
                         </div>
                     </div>
                     <div class="absolute top-0 right-0  w-full h-auto"
@@ -185,9 +185,9 @@
                             </p>
                             <div
                                 class="hidden w-[150px] mb-[30px] h-[42px] border rounded-[50px] md:flex flex-row justify-start items-center bg-[#FFE3D1]">
-                                <button
+                                <a href="./serviceDetails.html"
                                     class="font-semibold text-[14px] leading-5 p-[11px] ml-[9px] text-[#FE7317]">Learn
-                                    more</button>
+                                    more</a>
                                 <img src="../Home/Assets/arrowRight.svg" alt="" />
                             </div>
                         </div>
@@ -206,11 +206,11 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-[30px] mt-[30px]">
                 <div
-                    class="[&>div>div>div]:hover:bg-[#FE7317] [&>div>div>div>button]:hover:text-white [&>*:nth-child(2)]:hover:bg-[#E6E7F1] [&>div>div]:hover:bg-[#E6E7F1] w-full h-[150px] md:h-[314px] relative bg-[#d9d9d930] ">
+                    class="[&>div>div>div]:hover:bg-[#FE7317] [&>div>div>div>a]:hover:text-white [&>*:nth-child(2)]:hover:bg-[#E6E7F1] [&>div>div]:hover:bg-[#E6E7F1] w-full h-[150px] md:h-[314px] relative bg-[#d9d9d930] ">
                     <div
                         class="absolute top-0 right-0 w-[112px] h-[100px] rounded-bl-[36px] bg-white flex items-center justify-center z-10 ">
                         <div class=" flex items-center justify-center rounded-full w-[64px] h-[64px] bg-[#FFFFFF]">
-                            <img src="Assets/dappsIcon.svg" alt="" />
+                            <img src="../Home/Assets/databaseIcon.svg" alt="" />
                         </div>
                     </div>
                     <div class="absolute top-0 right-0  w-full h-auto"
@@ -219,7 +219,7 @@
                             class="mt-[48px] px-[28px] hover:bg-[url('../Home/Assets/cardBg.svg')] bg-no-repeat bg-left">
                             <p
                                 class="hidden md:block text-[#B3B7D4] font-semibold text-[20px]  tracking-tight mb-[8px]">
-                                01
+                                05
                             </p>
                             <p class="font-semibold text-[24px] text-[#000316] tracking-tight w-[129px] mb-[16px]">
                                 dApps
@@ -230,9 +230,9 @@
                             </p>
                             <div
                                 class="hidden w-[150px] mb-[30px] h-[42px] border rounded-[50px] md:flex flex-row justify-start items-center bg-[#FFE3D1]">
-                                <button
+                                <a href="./serviceDetails.html"
                                     class="font-semibold text-[14px] leading-5 p-[11px] ml-[9px] text-[#FE7317]">Learn
-                                    more</button>
+                                    more</a>
                                 <img src="../Home/Assets/arrowRight.svg" alt="" />
                             </div>
                         </div>
@@ -245,7 +245,7 @@
                     </div>
                 </div>
                 <div
-                    class="[&>div>div>div>div]:hover:bg-[#FE7317] [&>div>div>div>div>button]:hover:text-white [&>*:nth-child(2)]:hover:bg-[#E6E7F1] [&>div>div]:hover:bg-[#E6E7F1] [&>div>div>div>img]:hover:rotate-[-6deg]  w-full h-[150px] md:h-[314px] relative bg-[#d9d9d930] md:col-span-2">
+                    class="[&>div>div>div>div]:hover:bg-[#FE7317] [&>div>div>div>div>a]:hover:text-white [&>*:nth-child(2)]:hover:bg-[#E6E7F1] [&>div>div]:hover:bg-[#E6E7F1] [&>div>div>div>img]:hover:rotate-[-6deg]  w-full h-[150px] md:h-[314px] relative bg-[#d9d9d930] md:col-span-2">
                     <div
                         class="absolute top-0 right-0 w-[112px] h-[100px] rounded-bl-[36px] bg-white flex items-center justify-center z-10 ">
                         <div class=" flex items-center justify-center rounded-full w-[64px] h-[64px] bg-[#FFFFFF]">
@@ -259,7 +259,7 @@
                             <div class="mt-2 px-[40px]">
                                 <p
                                     class="hidden md:block text-[#B3B7D4] font-semibold text-[20px]  tracking-tight mb-[4px]">
-                                    01
+                                    06
                                 </p>
                                 <p class="font-semibold text-[24px] text-[#000316] tracking-tight w-[168px] mb-[16px]">
                                     Smart Contract
@@ -272,9 +272,9 @@
                                 </p>
                                 <div
                                     class="hidden w-[150px] mb-[30px] h-[42px] border rounded-[50px] md:flex flex-row justify-start items-center bg-[#FFE3D1]">
-                                    <button
+                                    <a href="./serviceDetails.html"
                                         class="font-semibold text-[14px] leading-5 p-[11px] ml-[9px] text-[#FE7317]">Learn
-                                        more</button>
+                                        more</a>
                                     <img src="../Home/Assets/arrowRight.svg" alt="" />
                                 </div>
                             </div>
@@ -300,15 +300,15 @@
     <section class="mt-[148px]">
         <div class="container bg-[#001070] rounded-[24px]">
             <div
-                class="hover:bg-[url('../Home/Assets/web3Storiesbg.svg)] bg-no-repeat bg-left px-5 md:px-[98px] py-[100px] block md:flex gap-3">
+                class="hover:bg-[url('../Home/Assets/web3Storiesbg.svg)] bg-no-repeat bg-left md:px-[98px] py-[100px] block md:flex gap-3">
                 <div class="md:w-6/12">
-                    <h1 style="font-family: Switzer-Semibold;"
+                    <p style="font-family: Switzer-Semibold;"
                         class="text-[36px] font-semibold mb-[16px] leading-[44px] tracking-tight text-[#FFFFFF] md:w-[457px]">
-                        Ready to create a more decentralized and connected future? 
-                    </h1>
+                        Ready to create a more decentralized and connected future?
+                    </p>
                     <p class="md:w-[457px] mb-[20px] font-medium text-base leading-6 text-[#D4D4D4]">
                         Our technical experts offer a free consultation to help you plan your idea, requirements, and
-                        tokenomics before beginning development. 
+                        tokenomics before beginning development.
                     </p>
                     <button
                         class="text-black bg-[#FE7317] hover:bg-white py-[15px] px-5 gap-2 w-[243px] rounded-[50px] flex justify-center items-center mb-5">
@@ -326,7 +326,7 @@
                         </div>
                         <div class="absolute bottom-0 right-0 w-full h-full"
                             style="clip-path: inset(0rem 0% round 1rem 1rem 1rem 1rem);">
-                            <div class="p-[30px]">
+                            <div class="p-4 md:p-[30px]">
                                 <h6
                                     class="md:w-[262px] font-medium text-[20px] leading-5 tracking-tight tex-[#000316] mb-[30px]">
                                     Or Read
@@ -339,9 +339,11 @@
                                 <div class="mt-[25px]">
                                     <p style="font-family: 'Inter', sans-serif;
                             font-family: 'Yellowtail', cursive;"
-                                        class="font-normal text-[20px] leding-6 text-[#334155] w-[400px]">Mahbub Shuvo
+                                        class="font-normal text-[20px] leding-6 text-[#334155] md:w-[400px]">Mahbub
+                                        Shuvo
                                     </p>
-                                    <p class="text-xs text-[#64748B] font-normal leading-6 w-[400px]">CEO at Core Devs
+                                    <p class="text-xs text-[#64748B] font-normal leading-6 md:w-[400px]">CEO at Core
+                                        Devs
                                         ltd
                                     </p>
                                 </div>

@@ -4,21 +4,21 @@ const cardData = [
     dataNo: '03',
     name: 'Trading Automation',
     details: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
-    img: "./Assets/traddingAutomation.svg"
+    img: "../Home/Assets/traddingAutomation.svg"
   },
   {
     id: 2,
     dataNo: '04',
     name: 'Task Automation',
     details: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
-    img: "./Assets/taskAutomation.svg"
+    img: "../Home/Assets/taskAutomation.svg"
   },
   {
     id: 3,
     dataNo: '04',
     name: 'SaaS Development',
     details: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
-    img: "./Assets/saasDevlopmentIcon.svg"
+    img: "../Home/Assets/saasDevlopmentIcon.svg"
   },
 ]
 const succesStoriesData = [
@@ -61,31 +61,32 @@ navbarToggle.addEventListener('click', () => {
 const cardSection = document.querySelector('#cardSection');
 
 const cards = cardData.map((cardData) => {
-  return `<div
-  class="[&>div>div>div]:hover:bg-[#FE7317] [&>div>div>div>button]:hover:text-white [&>*:nth-child(2)]:hover:bg-[#E6E7F1] [&>div>div]:hover:bg-[#E6E7F1] w-full h-[150px] md:h-[314px] relative bg-[#d9d9d930] ">
+  return ` <div
+  class="[&>div>div>div]:hover:bg-[#FE7317] [&>div>div>div>a]:hover:text-white [&>*:nth-child(2)]:hover:bg-[#E6E7F1] [&>div>div]:hover:bg-[#E6E7F1] w-full h-[150px] md:h-[314px] relative bg-[#d9d9d930] ">
   <div
       class="absolute top-0 right-0 w-[112px] h-[100px] rounded-bl-[36px] bg-white flex items-center justify-center z-10 ">
       <div class=" flex items-center justify-center rounded-full w-[64px] h-[64px] bg-[#FFFFFF]">
-          <img src="Assets/dappsIcon.svg" alt="" />
+          <img src=${cardData.img} alt="" />
       </div>
   </div>
   <div class="absolute top-0 right-0  w-full h-auto"
       style="clip-path: inset(0rem 0% round 1rem 1rem 1rem 1rem);">
-      <div class="mt-[48px] px-[28px] hover:bg-[url('./Assets/cardBg.svg')] bg-no-repeat bg-left">
-          <p class="hidden md:block text-[#B3B7D4] font-semibold text-[20px]  tracking-tight mb-[8px]">01
+      <div
+          class="mt-[48px] px-[28px] hover:bg-[url('../Home/Assets/cardBg.svg')] bg-no-repeat bg-left">
+          <p
+              class="hidden md:block text-[#B3B7D4] font-semibold text-[20px]  tracking-tight mb-[8px]">
+              ${cardData.dataNo}
           </p>
-          <p class="font-semibold text-[24px] text-[#000316] tracking-tight w-[129px] mb-[16px]">
-              dApps
-              Development</p>
+          <p class="font-semibold text-[24px] text-[#000316] tracking-tight w-[129px] mb-[16px]">${cardData.name}</p>
           <p class="hidden md:block font-normal text-[14px] text-[#64748B] mb-[20px]">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-              consequat duis enim velit mollit.
+             ${cardData.details}
           </p>
           <div
-              class="hidden mb-[30px] w-[150px] h-[42px] border rounded-[50px] md:flex flex-row justify-start items-center bg-[#FFE3D1]">
-              <button class="font-semibold text-[14px] leading-5 p-[11px] ml-[9px] text-[#FE7317]">Learn
-                  more</button>
-              <img src="./Assets/arrowRight.svg" alt="" />
+              class="hidden w-[150px] mb-[30px] h-[42px] border rounded-[50px] md:flex flex-row justify-start items-center bg-[#FFE3D1]">
+              <a href="./serviceDetails.html"
+                  class="font-semibold text-[14px] leading-5 p-[11px] ml-[9px] text-[#FE7317]">Learn
+                  more</a>
+              <img src="../Home/Assets/arrowRight.svg" alt="" />
           </div>
       </div>
       <div class="absolute top-0 right-[112px] rounded-tr-full w-[50px] h-[50px] "
@@ -119,3 +120,4 @@ const successStoriesCard = succesStoriesData.map((data) => {
         `;
 });
 successcardSection.innerHTML = successStoriesCard.join('');
+

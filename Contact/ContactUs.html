@@ -32,64 +32,61 @@
 <body>
     <section>
         <!-- ==== Navbar ==== -->
-        <div class="container fixed top-0 left-0 right-0 bg-white z-50">
-            <nav class="font-inter">
-                <div class="max-w-full">
+        <div class="fixed top-0 left-0 right-0 bg-white z-50">
+            <nav>
+                <div class="container">
                     <div class="flex justify-between h-16">
                         <!-- Logo -->
                         <div class="flex-shrink-0 flex items-center">
-                            <img src='./Asset/logo.svg' alt="">
+                            <img src='../Service/Asset/logo.svg' alt="">
                         </div>
                         <!-- Hamburger menu button (hidden on larger screens) -->
                         <div class="flex items-center sm:hidden">
                             <button id="navbar-toggle"
                                 class="inline-flex items-center justify-center p-2 rounded-md transition duration-150 ease-in-out">
-                                <img src="./Asset/collapseIcon.svg" alt="">
+                                <img src="../Service/Asset/collapseIcon.svg" alt="">
                             </button>
                         </div>
                         <!-- Links -->
                         <div
                             class="hidden sm:flex sm:items-center sm:ml-6 h-[42px] border-[0.5px] border-[#cbd5e133] rounded-[50px] mt-[16px] gap-x-[20px]">
-                            <a href="#"
+                            <a href="../Home/home.html"
                                 class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Home</a>
-                            <a href="#"
+                            <a href="../Home/home.html"
                                 class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">About
                                 Us</a>
-
-                            <div class="flex flex-row justify-center items-center">
-                                <p class="rounded-full bg-[#FE7317] w-[4px] h-[4px] ml-4"></p>
-                                <a href="#" style="font-family: Switzer-Semibold;"
-                                    class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">
-                                    Services </a>
-                            </div>
+                            <a href="../Service/service.html"
+                                class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Services</a>
                             <a href="#" class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Case
                                 Study</a>
-                            <a href="#"
+                            <a href="../BlogDetails/blogDetails.html"
                                 class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Blog</a>
                             <a href="#"
                                 class="text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Career</a>
                         </div>
                         <div
                             class="hidden md:flex items-center justify-center py-[9px] px-4 mt-4 gap-x-2 bg-[#000316] text-white border rounded-[50px] h-[42px]">
-                            <img class="stroke-white	" src="./Asset/calendar.svg" alt="">
-                            <p>Schedule a call</p>
+                            <img class="stroke-white	" src="../Service/Asset/calendar.svg" alt="">
+                            <a href="../Contact/ScheduleCall.html"
+                                class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">Schedule a
+                                call</a>
                         </div>
                     </div>
                 </div>
                 <!-- Mobile menu, toggle classes based on menu state -->
                 <div class="hidden sm:hidden" id="mobile-menu">
                     <div class="px-2 pt-2 pb-3">
-                        <a href="#"
+                        <a href="../Home/home.html"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Home</a>
-                        <a href="#"
+                        <a href="../Home/home.html"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">About
                             Us</a>
-                        <a href="#"
+                        <a href="../Service/service.html"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Services</a>
                         <a href="#"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Case
                             Study</a>
-                        <a href="#"
+                        <a href="../BlogDetails/blogDetails.html"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Blog</a>
                         <a href="#"
                             class="block text-[#000316] px-3 py-2 rounded-md text-base font-medium leading-6">Career</a>
@@ -97,7 +94,6 @@
                 </div>
             </nav>
         </div>
-
     </section>
 
     <!-- contact us page -->
@@ -106,12 +102,12 @@
             <div class="grid grid-cols-1 md:grid-cols-2">
                 <div class="mt-[78px]">
                     <div class="flex md:gap-[10px]">
-                        <p
-                            class="text-center font-semibold text-sm leading-6 text-white uppercase bg-[#001070] border rounded-[50px] py-[6px] px-2 md:px-4  md:w-[175px]">
-                            schedule a call</p>
-                        <p
+                        <a href="./ScheduleCall.html"
                             class="text-center text-[#475569] font-semibold text-sm leading-6 uppercase border rounded-[50px] py-[6px] px-2 md:px-4 md:w-[175px]">
-                            Contact with us</p>
+                            schedule a call</a>
+                        <a href="./ContactUs.html"
+                            class="text-center font-semibold text-sm leading-6 text-white uppercase bg-[#001070] border rounded-[50px] py-[6px] px-2 md:px-4  md:w-[175px]">
+                            Contact with us</a>
                     </div>
                     <div class="mt-8 w-[300px] md:w-[458px]">
                         <h2>A Cup of coffee with Core
@@ -152,31 +148,35 @@
                         <div class="mt-[21px]">
                             <p class="text-sm font-normal leading-5 text-[#000316] mb-1">Full name</p>
                             <input
-                                class="w-full h-[48px] text-[#475569] outline-0 text-sm leading-5 font-normal flex justify-start items-center py-[14px] px-3 gap-[10px]"
+                                class="w-full rounded h-[48px] text-[#475569] outline-0 text-sm leading-5 font-normal flex justify-start items-center py-[14px] px-3 gap-[10px]"
                                 type="text" placeholder="Jaded Pixel">
                         </div>
                         <div class="mt-[21px]">
                             <p class="text-sm font-normal leading-5 text-[#000316] mb-1">Email Address</p>
                             <input
-                                class="w-full h-[48px] text-[#475569] outline-0 text-sm leading-5 font-normal flex justify-start items-center py-[14px] px-3 gap-[10px]"
+                                class="w-full h-[48px] rounded text-[#475569] outline-0 text-sm leading-5 font-normal flex justify-start items-center py-[14px] px-3 gap-[10px]"
                                 type="text" placeholder="Jaded Pixel">
                         </div>
                         <div class="mt-[21px]">
                             <p class="text-sm font-normal leading-5 text-[#000316] mb-1">Phone Number</p>
                             <div
                                 class="w-full h-[48px] flex justify-start items-center bg-white py-[14px] px-3 gap-[10px]">
-                                <img src="./Asset/bd.svg" alt="">
-                                <p>+880</p>
-                                <input
-                                    class="m-2 p-2 w-[150px] md:w-full border-l-2 border-[#FE7317] outline-0 text-[#475569] text-sm leading-5 font-normal"
-                                    type="number" placeholder="Jaded Pixel">
+                                <div class="flex justify-start items-center gap-2 border-r-[0.5px] border-[#64748B]">
+                                    <img src="./Asset/bd.svg" alt="">
+                                    <p class="mr-2">+880</p>
+                                </div>
+                                <div>
+                                    <input
+                                        class=" w-[150px] rounded md:w-full caret-[#FE7317] outline-0 text-[#475569] text-sm leading-5 font-normal"
+                                        type="number" placeholder="Jaded Pixel">
+                                </div>
                             </div>
                         </div>
                         <div class="mt-[21px]">
                             <p class="text-sm font-normal leading-5 text-[#000316] mb-1">Project Details</p>
                             <div class="w-full flex justify-start items-center bg-white py-[14px] px-3 gap-[10px]">
                                 <input
-                                    class="h-[80px] w-full top-0 flex justify-start items-start outline-0 text-[#475569] text-sm leading-5 font-normal"
+                                    class="h-[80px] w-full rounded top-0 flex justify-start items-start outline-0 text-[#475569] text-sm leading-5 font-normal"
                                     type="text" placeholder="Write your small project brief">
                             </div>
                         </div>
