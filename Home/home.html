@@ -30,12 +30,11 @@
 
 
 <body>
-    <section style="
-    background: linear-gradient(357.75deg, #001070 1.79%, rgba(0, 16, 112, 0) 70.06%); background-color: #000316;">
+    <section>
         <!-- ==== Navbar ==== -->
-        <div>
-            <nav class="">
-                <div class="max-w-full px-6 md:mx-[150px] sm:px-6 lg:px-8">
+        <div class="fixed top-0 left-0 right-0 z-50 bg-[#000316] pb-2">
+            <nav>
+                <div class="container">
                     <div class="flex justify-between h-16">
                         <!-- Logo -->
                         <div class="flex-shrink-0 flex items-center">
@@ -51,13 +50,10 @@
                         <!-- Links -->
                         <div
                             class="hidden sm:flex sm:items-center sm:ml-6 h-[42px] border-[0.5px] border-[#cbd5e133] rounded-[50px] mt-[16px] gap-x-[20px]">
-                            <div class="flex flex-row justify-center items-center">
-                                <p class="rounded-full bg-[#FE7317] w-[4px] h-[4px] ml-4"></p>
-                                <a href="#" style="font-family: Switzer-Semibold;"
-                                    class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">
-                                    Home </a>
-                            </div>
-                            <a href="#" class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">About
+                            <a href="../Home/home.html"
+                                class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">Home</a>
+                            <a href="../Home/home.html"
+                                class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">About
                                 Us</a>
                             <a href="../Service/service.html"
                                 class="text-white px-3 py-2 rounded-md text-base font-medium leading-6">Services</a>
@@ -78,15 +74,16 @@
                 <!-- Mobile menu, toggle classes based on menu state -->
                 <div class="hidden sm:hidden" id="mobile-menu">
                     <div class="px-2 pt-2 pb-3">
-                        <a href="#"
+                        <a href="../Home/home.html"
                             class="block text-white px-3 py-2 rounded-md text-base font-medium leading-6">Home</a>
-                        <a href="#" class="block text-white px-3 py-2 rounded-md text-base font-medium leading-6">About
+                        <a href="../Home/home.html"
+                            class="block text-white px-3 py-2 rounded-md text-base font-medium leading-6">About
                             Us</a>
-                        <a href="#"
+                        <a href="../Service/service.html"
                             class="block text-white px-3 py-2 rounded-md text-base font-medium leading-6">Services</a>
                         <a href="#" class="block text-white px-3 py-2 rounded-md text-base font-medium leading-6">Case
                             Study</a>
-                        <a href="#"
+                        <a href="../BlogDetails/blogDetails.html"
                             class="block text-white px-3 py-2 rounded-md text-base font-medium leading-6">Blog</a>
                         <a href="#"
                             class="block text-white px-3 py-2 rounded-md text-base font-medium leading-6">Career</a>
@@ -94,13 +91,14 @@
                 </div>
             </nav>
         </div>
-
-        <!-- ==== Banner ==== -->
-        <div>
-            <div class="mt-24 flex flex-row ">
-                <img class="w-[10%]" src="./Assets/SideLogo.svg" alt="">
-                <div class="w-[80%] block md:flex justify-between">
-                    <div class="md:ml-[-25px]">
+    </section>
+    <!-- Banner section -->
+    <section class="pt-[200px]" style="
+    background: linear-gradient(357.75deg, #001070 1.79%, rgba(0, 16, 112, 0) 70.06%); background-color: #000316;">>
+        <div class="bg-[url('./Assets/SideLogo.svg')] bg-no-repeat">
+            <div class="container">
+                <div class=" block md:flex justify-between">
+                    <div class="">
                         <p style="border-color: linear-gradient(89.87deg, #FE7317 2.26%, #001070 99.89%);"
                             class="text-[#999FC6] text-sm leading-5 font-semibold w-[200px] px-2 h-[20px] border rounded-full">
                             TRUST. BUILD. PROTECT.</p>
@@ -118,7 +116,6 @@
                             <button class="font-medium text-base leading-6">Get an Estimate</button>
                             <img src="./Assets/rightIcon.svg" alt="">
                         </div>
-
                     </div>
                     <div>
                         <div class="relative mt-[92px]">
@@ -163,7 +160,6 @@
 
     <!-- ==== Card Section ==== -->
     <section class="mt-[148px]">
-
         <div class="container ">
             <div class="block md:flex justify-between items-center mb-[62px]">
                 <p style="font-family: Switzer-Semibold;"
@@ -723,24 +719,27 @@
                     style="font-family: Switzer-Semibold;">
                     Top Web3 Development Company by Upwork.</h1>
                 <div class="flex flex-row justify-center items-center">
-                    <img class="mr-5 hidden md:flex" src="./Assets/successtories/arrowleft.svg" alt="">
-                    <img class="mr-5 hidden md:flex" src="./Assets/successtories/arrowRight.svg" alt="">
+                    <img class="mr-5 hidden md:flex" src="../Home/Assets/successtories/arrowleft.svg" alt="">
+                    <img class="mr-5 hidden md:flex" src="../Home/Assets/successtories/arrowRight.svg" alt="">
                 </div>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-[30px]">
+            <div class="grid grid-cols-1 md:grid-cols-3 md:gap-[30px]">
                 <div class="w-full md:w-[500px] h-[364px] relative bg-[#d9d9d930] ">
                     <div
                         class="absolute bottom-0 left-0 w-[112px] h-[100px] rounded-tr-[36px] bg-white flex items-center justify-center z-10 ">
                         <div class="relative">
-                            <div class=" flex items-center justify-center rounded-full w-[80px] h-[80px]">
+                            <div class="flex items-center justify-center rounded-full w-[80px] h-[80px]">
                                 <img class="" src="./Assets/avatar1.svg" alt="">
                             </div>
                             <div class="absolute bottom-0 left-[120px]">
                                 <p style="font-family: 'Inter', sans-serif;
-                            font-family: 'Yellowtail', cursive;"
-                                    class="font-normal text-[20px] leding-6 text-[#334155] w-[400px]">Nils Spoelgen
+                        font-family: 'Yellowtail', cursive;"
+                                    class="font-normal text-[20px] leding-6 text-[#334155] w-[100px] md:w-[400px]">Nils
+                                    Spoelgen
                                 </p>
-                                <p class="text-xs text-[#64748B] font-normal leading-6 w-[400px]">Upwork verified Review
+                                <p class="text-xs text-[#64748B] font-normal leading-6 w-[150px] md:w-[400px]">Upwork
+                                    verified
+                                    Review
                                 </p>
                             </div>
                         </div>
@@ -782,15 +781,18 @@
                             </div>
                             <div class="absolute bottom-0 left-[120px]">
                                 <p style="font-family: 'Inter', sans-serif;
-                            font-family: 'Yellowtail', cursive;"
-                                    class="font-normal text-[20px] leding-6 text-[#334155] w-[400px]">Alex Gon</p>
-                                <p class="text-xs text-[#64748B] font-normal leading-6 w-[400px]">Upwork verified Review
+                        font-family: 'Yellowtail', cursive;"
+                                    class="font-normal text-[20px] leding-6 text-[#334155] w-[100px] md:w-[400px]">Alex
+                                    Gon</p>
+                                <p class="text-xs text-[#64748B] font-normal leading-6 w-[150px] md:w-[400px]">Upwork
+                                    verified
+                                    Review
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="absolute top-0 right-0" style="clip-path: inset(0rem 0% round 1rem 1rem 1rem 1rem);">
-                        <div class="mt-[48px] px-[28px] hover:bg-[url('./Assets/cardBg.svg')] bg-no-repeat bg-left">
+                        <div class="mt-[48px] px-[28px] hover:bg-[url('./Asset/cardBg.svg')] bg-no-repeat bg-left">
                             <div class="px-[30px] pt-[26px]">
                                 <img src="./Assets/doubleQuotes.svg" alt="">
                                 <p class="text-sm font-normal leading-5 text-[#475569]  mb-[99px] mt-[15px]">Mahbub &
@@ -817,15 +819,19 @@
                             </div>
                             <div class="absolute bottom-0 left-[120px]">
                                 <p style="font-family: 'Inter', sans-serif;
-                            font-family: 'Yellowtail', cursive;"
-                                    class="font-normal text-[20px] leding-6 text-[#334155] w-[400px]">Robert Novak</p>
-                                <p class="text-xs text-[#64748B] font-normal leading-6 w-[400px]">Upwork verified Review
+                        font-family: 'Yellowtail', cursive;"
+                                    class="font-normal text-[20px] leding-6 text-[#334155] w-[100px] md:w-[400px]">
+                                    Robert Novak
+                                </p>
+                                <p class="text-xs text-[#64748B] font-normal leading-6 w-[150px] md:w-[400px]">Upwork
+                                    verified
+                                    Review
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="absolute top-0 right-0" style="clip-path: inset(0rem 0% round 1rem 1rem 1rem 1rem);">
-                        <div class="mt-[48px] px-[28px] hover:bg-[url('./Assets/cardBg.svg')] bg-no-repeat bg-left">
+                        <div class="mt-[48px] px-[28px] hover:bg-[url('./Asset/cardBg.svg')] bg-no-repeat bg-left">
                             <div class="px-[30px] pt-[26px]">
                                 <img src="./Assets/doubleQuotes.svg" alt="">
                                 <p class="text-sm font-normal leading-5 text-[#475569]  mb-[99px] mt-[15px]">very
