@@ -107,9 +107,9 @@ const successStoriesCard = succesStoriesData.map((data) => {
   return `
         <div class="w-full">
             <img src=${data.img} alt="">
-            <p class="w-[119px] h-[20px] font-medium text-xs leading-5 text-[#000316] mt-[20px] mb-[8px]">${data.time}</p>
+            <p class="md:w-[119px] h-[20px] font-medium text-xs leading-5 text-[#000316] mt-[20px] mb-[8px]">${data.time}</p>
             <h1 style="font-family: Switzer-Semibold;"
-                class="w-[360px] h-[32px] text-[24px] leading-[32px] tracking-tight text-[#000316] mb-[10px]">${data.title}</h1>
+                class="md:w-[360px] h-[32px] text-[24px] leading-[32px] tracking-tight text-[#000316] mb-[10px]">${data.title}</h1>
             <p class="md:w-[360px] h-[60px] mb-[27px] font-normal text-sm leading-5 text-[#64748B]">${data.details}</p>
             <button
                 class="font-semibold text-sm leading-5 text-[#FE7317] bg-[#FFE3D1] rounded-[50px] flex flex-row gap-[8px] py-[9px] px-[20px]">
