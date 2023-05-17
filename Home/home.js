@@ -83,7 +83,7 @@ const cards = cardData.map((cardData) => {
           </p>
           <div
               class="hidden w-[150px] mb-[30px] h-[42px] border rounded-[50px] md:flex flex-row justify-start items-center bg-[#FFE3D1]">
-              <a href="./serviceDetails.html"
+              <a href="../Service/serviceDetails.html"
                   class="font-semibold text-[14px] leading-5 p-[11px] ml-[9px] text-[#FE7317]">Learn
                   more</a>
               <img src="../Home/Assets/arrowRight.svg" alt="" />
